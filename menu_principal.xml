@@ -3,16 +3,16 @@
 <menus>
   
 <menus_info>
-<title>[COLOR red]Kodi[/COLOR][COLOR yellow]Spain[/COLOR][COLOR red]Tv[/COLOR]</title>
+<title>[COLOR red]Addon[/COLOR][COLOR yellow] Fenix[/COLOR][COLOR red]Tv[/COLOR]</title>
 <genre>ALL</genre>
 <description>Contenido variado en español</description>
-<thumbnail>https://i.postimg.cc/PxbwZKFV/uDzZNhh.png</thumbnail>
-<fanart>https://i.postimg.cc/HLwxPn4V/uHz4BP7.jpg</fanart>
-<credits>https://t.me/kodispain (joheos11)</credits>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<credits></credits>
 </menus_info>
 
 <menu>
-<title>[COLOR red]Kodi[/COLOR][COLOR yellow]Spain[/COLOR][COLOR red]Tv[/COLOR]         [COLOR yellow]por[/COLOR] [COLOR red]@[/COLOR][COLOR yellow]joheos11[/COLOR]</title>
+<title>[COLOR red][/COLOR][COLOR yellow]Fenix [/COLOR][COLOR red]Tv[/COLOR]         [COLOR yellow]por[/COLOR] [COLOR red]@[/COLOR][COLOR yellow][/COLOR]</title>
 <utube>Sgnp9ZaXHFw</utube>
 <thumbnail>https://i.postimg.cc/PxbwZKFV/uDzZNhh.png</thumbnail>
 <fanart>https://i.postimg.cc/HLwxPn4V/uHz4BP7.jpg</fanart>
@@ -143,21 +143,21 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://bit.ly/photocalltv</externallink>
 </menu>
 
-<menu>
+<!-- <menu>
 <title>[B][COLOR white]PLUTO TV[/COLOR][/B]</title>
 <link>nolink</link>
 <thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
 <fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
 <externallink>https://bit.ly/plutotvks</externallink>
-</menu>
+</menu> -->
   
-<menu>
+<!-- <menu>
 <title>[B][COLOR white]SAMSUNG TV PLUS[/COLOR][/B]</title>
 <link>nolink</link>
 <thumbnail>https://i.postimg.cc/DZphy31z/samsungtvplus.png</thumbnail>
 <fanart>https://i.postimg.cc/sXCzM4Nk/samsungtvplus.jpg</fanart>
 <externallink>https://bit.ly/SamsungTVPlusKS</externallink>
-</menu>
+</menu> -->
   
 <!-- <menu>
 <title>[B][COLOR white]TDTCHANNELS[/COLOR][/B]</title>
