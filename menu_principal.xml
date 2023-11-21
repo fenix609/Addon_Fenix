@@ -58,7 +58,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.postimg.cc/W4NGHypV/Canales-de-Espa-a.jpg</fanart>
 </menu>
 
-<!-- <menu>
+<menu>
 <title>[B][COLOR white]CANALES INTERNACIONALES[/COLOR]   [COLOR yellow]PUEDES NECESITAR VPN[/COLOR][/B]</title>
 <link>$doregex[country]</link>
 <regex>
@@ -117,15 +117,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>https://i.imgur.com/r2Hkc3s.png</thumbnail>
 <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-</menu> -->
+</menu>
 
-<!-- <menu>  
+<menu>  
 <title>[B][COLOR white]DEPORTES[/COLOR][/B]</title>
 <link>nolink</link>
 <thumbnail>https://i.postimg.cc/cJ0ZCmwL/Sozt4fH.jpg</thumbnail>
 <fanart>https://i.imgur.com/3zk1XTz.jpg</fanart> 
 <externallink>https://bit.ly/DEPORTES_MOD</externallink>
-</menu> -->
+</menu>
 
 <menu>
 <title>[B][COLOR white]LISTAS IPTV[/COLOR][/B]</title>
