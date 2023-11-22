@@ -3,7 +3,7 @@
 <menus>
 
 <menu>
-<title>[B][COLOR white]IPTV MUNDIAL[/COLOR][/B]</title>
+<title>[B][COLOR white]IPTV MUNDIAL   interesante m3u [/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
