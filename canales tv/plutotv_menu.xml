@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<menus>
+
+<menu>
+<title>[B][COLOR white]TODOS[/COLOR][/B]</title>
+<link>$doregex[channel]</link>
+<regex>
+<name>channel</name>
+<listrepeat><![CDATA[
+  <title>[B][COLOR white][channel.param3]  [/COLOR][COLOR khaki][channel.param2][/COLOR] [/B]</title>
+  <link>[channel.param4]</link>
+  <thumbnail>[channel.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import requests, re
+  page_data = requests.get('https://i.mjh.nz/PlutoTV/es.m3u8').text
+  data = re.findall('EXTINF.*?logo="(.*) group-title="(.*)" , (.*)\n(.*)',page_data)
+  return sorted(data, key=lambda match: match[2])
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
+<fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
+</menu>
+
+<menu>
+<title>[B][COLOR white]POR CATEGORIA[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[B][COLOR white][makelist.param1][/COLOR][/B]</title>
+  <link>$doregex[channel]</link>
+  <thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
+  <fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import requests, re
+  page_data = requests.get('https://i.mjh.nz/PlutoTV/es.m3u8').text
+  match = re.findall('group-title="([^"]+)"',page_data)
+  seccion_list = []
+  for x in match:
+    if x not in seccion_list:
+      seccion_list.append(x)
+  return sorted(seccion_list)
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>channel</name>
+<listrepeat><![CDATA[
+  <title>[B][COLOR white][channel.param2][/COLOR][/B]</title>
+  <link>[channel.param3]</link>
+  <thumbnail>[channel.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import requests, re
+  page_data = requests.get('https://i.mjh.nz/PlutoTV/es.m3u8').text
+  data = re.findall('EXTINF.*?logo="(.*) group-title="[makelist.param1]" , (.*)\n(.*)',page_data)
+  return sorted(data, key=lambda match: match[1])
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
+<fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
+</menu>
+
+</menus>
