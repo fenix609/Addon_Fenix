@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<menus>
+
+<menu>
+<title>[B][COLOR white]IPTV MUNDIAL[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[B][COLOR white][makelist.param1] ([makelist.param2])[/COLOR][/B]</title>
+  <link>$doregex[tvchannels]</link>
+  <thumbnail>https://ip-tv.app/wp-content/uploads/2023/08/ip-tv.jpg</thumbnail>
+  <fanart>https://it-doc.info/wp-content/uploads/2017/08/izobrajenie-zapisi.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)first">\s+\S+\s+(\S+.*?)\s+<.*?(\d+).*?href="(https.*?)"]]></expres>
+<page>$doregex[country]</page>
+</regex>
+<regex>
+<name>country</name>
+<expres><![CDATA[(?s)table-1(.*?)\/table]]></expres>
+<page>https://ip-tv.app</page>
+</regex>
+<regex>
+<name>tvchannels</name>
+<listrepeat><![CDATA[
+  <title>[B][COLOR white][tvchannels.param3][/COLOR]     [COLOR blue]([tvchannels.param2])[/COLOR][/B]</title>
+  <link>[tvchannels.param4]</link>
+  <thumbnail>[tvchannels.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re, requests
+def GetLSProData(page_data,Cookie_Jar,m):
+  list = requests.get('[makelist.param3]').text
+  data = re.findall('EXTINF.*tvg-id=".*?".*?logo="(https.*?)".*?group-title="(.*?)",(.*?)\n(http.*?)\n',list)
+  return sorted(data, key=lambda match: match[2])
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://ip-tv.app/wp-content/uploads/2023/08/ip-tv.jpg</thumbnail>
+<fanart>https://it-doc.info/wp-content/uploads/2017/08/izobrajenie-zapisi.jpg</fanart>
+</menu>
+
+<menu>
+<title>[B][COLOR white]MyCamTV / AdultIPTV[/COLOR]  [COLOR red](+18)[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[B][COLOR white][makelist.param2][makelist.param5][/COLOR][COLOR salmon]   [makelist.param1][makelist.param4][/COLOR][/B]</title>
+  <link>[makelist.param3][makelist.param6]</link>
+  <thumbnail>https://i.postimg.cc/W3tg97zd/adultiptv.png</thumbnail>
+  <fanart>https://i.postimg.cc/d1nxvjcR/adultiptv.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[(MyCamTV).(.*)\n(.*)|,(AdultIPTV).net.(.*)\n(.*)]]></expres>
+<page>https://bit.ly/3o6CB1W</page>                                                           <!--  ESTO ES UNA LISTA EN M3U -->
+</regex>
+<thumbnail>https://i.postimg.cc/VvtGL8Ys/adultiptv.png</thumbnail>
+<fanart>https://i.postimg.cc/13BWzMZF/adultiptv.jpg</fanart>
+</menu>
+
+</menus>
