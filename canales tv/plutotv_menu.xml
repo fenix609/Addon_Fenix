@@ -39,7 +39,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
   import requests, re
-  page_data = requests.get('https://i.mjh.nz/PlutoTV/es.m3u8').text
+  page_data = requests.get('https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/m3u/plutotv_es.m3u8').text
   match = re.findall('group-title="([^"]+)"',page_data)
   seccion_list = []
   for x in match:
@@ -59,7 +59,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
   import requests, re
-  page_data = requests.get('https://i.mjh.nz/PlutoTV/es.m3u8').text
+  page_data = requests.get('https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/m3u/plutotv_es.m3u8').text
   data = re.findall('EXTINF.*?logo="(.*) group-title="[makelist.param1]" , (.*)\n(.*)',page_data)
   return sorted(data, key=lambda match: match[1])
 ]]></expres>
