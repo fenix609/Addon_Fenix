@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<menus>
+
+<menu>
+<title>[B][COLOR white]ACESTREAM SPANISH [/COLOR][COLOR yellow]POWERED BY @Abranxu[/COLOR][/B]</title> 
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR white][makelist.param7][/COLOR][/B]</title>
+<link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param1]</link>
+<thumbnail>[makelist.param2]</thumbnail>
+<fanart>https://i.imgur.com/3zk1XTz.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[enlace":"(.*?)","imagen":"(.*?)","imagen_fondo":"(.*?)","estado":(true),"orden":(.*?),"_id":"(.*?)","nombre":"(.*?)"]]></expres>
+<page>https://bit.ly/AcestreamSpanish</page>
+</regex>
+<thumbnail>https://pbs.twimg.com/profile_images/3439640730/57c17b000072c3880ba869813617c6c6_400x400.png</thumbnail>
+<fanart>https://i.imgur.com/3zk1XTz.jpg</fanart>
+</menu>
+
+<menu>
+<title>[B][COLOR white]EL PLAN[/COLOR][COLOR yellow]  DEPORTES  [/COLOR][COLOR red]  ACESTREAM[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[B][COLOR white][makelist.param1][/COLOR][/B]</title>
+  <link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]</link>
+  <thumbnail>https://i.imgur.com/IvsZXqy.png</thumbnail>
+  <fanart>https://i.imgur.com/3zk1XTz.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[\*\*(.*?)\*\*.*?acestream:\/\/(\w+)]]></expres>
+<page>https://hackmd.io/@penaltis/GOL-DE-ORO</page>
+</regex>
+<thumbnail>https://i.imgur.com/IvsZXqy.png</thumbnail>
+<fanart>https://i.imgur.com/3zk1XTz.jpg</fanart>
+</menu>
+
+<menu>
+<title>[B][COLOR white]DucKVision[/COLOR][COLOR red]  ACESTREAM[/COLOR][/B]</title>
+<link>$doregex[events]</link>
+<regex>
+<name>events</name>
+<listrepeat><![CDATA[
+  <title>[B][COLOR white][events.param1][/COLOR][/B]</title>
+  <link>http://127.0.0.1:6878/ace/getstream?id=[events.param2]</link>
+  <thumbnail>https://pbs.twimg.com/profile_images/3439640730/57c17b000072c3880ba869813617c6c6_400x400.png</thumbnail>
+  <fanart>https://i.imgur.com/3zk1XTz.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):
+    data = requests.get('http://45.86.86.131/canales.php').text
+    data = re.sub(r'(?m)^[^\S\n]+', '', data)
+    events = [(eventName, eventLink) for eventName, eventLink in re.compile(
+        r'<p>Canal:\s*([^<]+)<\/p>\s*.*?acestream\.php\?code=([A-Za-z\d+]+)').findall(data)]
+    return events
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://pbs.twimg.com/profile_images/3439640730/57c17b000072c3880ba869813617c6c6_400x400.png</thumbnail>
+<fanart>https://i.imgur.com/3zk1XTz.jpg</fanart>
+</menu>
+
+<menu>
+<title>[B][COLOR white]AGENDA OPC.1  [/COLOR][COLOR yellow]NO CONTIENE ENLACES A EVENTOS[/COLOR][/B]</title>
+<link>$doregex[agenda]</link>
+<regex>
+<name>agenda</name>
+<listrepeat><![CDATA[
+<title>[UPPERCASE][B][COLOR blue]$doregex[parseDia][/COLOR][COLOR green]$doregex[parseDeporte][/COLOR][/B][/UPPERCASE][COLOR white]$doregex[parseEvento][/COLOR][COLOR gold][agenda.param5][/COLOR] [COLOR red][agenda.param4][/COLOR]</title>
+<link>nolink</link>
+<thumbnail>https://imgur.com/K41NwJ9.png</thumbnail>
+<fanart>https://i.imgur.com/3zk1XTz.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[<span class=\"fecha-bar\">([^<]+)</span>|<span class=\"box-medium\">([^<]+)</span>|<a href=\"[^\"]+\">([^<]+)</a>|<li class=\"time-bar\">([^\(]+) \(Dial [\d]+\) <span>([^<]+)</span></li>]]></expres>
+<page>https://www.movistarplus.es/deportesendirectobar</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>parseDia</name>
+<expres>$pyFunction:('' if '''[agenda.param1]'''=='' else '''### [agenda.param1] ###''')</expres>
+<page></page>
+</regex>
+<regex>
+<name>parseDeporte</name>
+<expres>$pyFunction:('' if '''[agenda.param2]'''=='' else '''## [agenda.param2] ##''')</expres>
+<page></page>
+</regex>
+<regex>
+<name>parseEvento</name>
+<expres>$pyFunction:('' if '''[agenda.param3]'''=='' else '''# [agenda.param3] #''')</expres>
+<page></page>
+</regex>
+<thumbnail>https://imgur.com/K41NwJ9.png</thumbnail>
+<fanart>https://i.imgur.com/3zk1XTz.jpg</fanart>
+</menu>
+
+<menu>
+<title>[B][COLOR white]AGENDA OPC.2  [/COLOR][COLOR yellow]NO CONTIENE ENLACES A EVENTOS[/COLOR][/B]</title>
+<link>$doregex[agenda]</link>
+<regex>
+<name>agenda</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR gold][agenda.param5][/COLOR] [COLOR blue][agenda.param2][/COLOR] [COLOR white][agenda.param4][/COLOR] [COLOR red][agenda.param3][/COLOR][/B]</title>
+<link>nolink</link>
+<thumbnail>[agenda.param1]</thumbnail>
+<fanart>https://i.imgur.com/3zk1XTz.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)div_campeonato.*?src='(http.*?png).*?text=([^\n]+).*?TV:\s([^\n]+).*?location=([^\n]+).*?>(\d+:\d+)<]]></expres>
+<page>https://www.futbolenlatele.com/indexhoy.php</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://imgur.com/HNvfZxW.png</thumbnail>
+<fanart>https://i.imgur.com/3zk1XTz.jpg</fanart>
+</menu>
+
+<menu>
+<title>[B][COLOR white]CANALES TV &amp; EVENTOS[/COLOR][/B]</title> 
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLOR white][makelist.param7][/COLOR][/B]</title>
+<link>[makelist.param1]</link>
+<thumbnail>[makelist.param2]</thumbnail>
+<fanart>https://i.imgur.com/3zk1XTz.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[enlace":"(.*?)","imagen":"(.*?)","imagen_fondo":"(.*?)","estado":(true),"orden":(.*?),"_id":"(.*?)","nombre":"(.*?)"]]></expres>
+<page>https://kodispaintv.onrender.com/api/buscar/productos/60911fd601f9ac001530be3d</page>
+</regex>
+<thumbnail>https://imgur.com/hA9zzTs.png</thumbnail>
+<fanart>https://i.imgur.com/3zk1XTz.jpg</fanart>
+</menu>
+ 
+</menus>
