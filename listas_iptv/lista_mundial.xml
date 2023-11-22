@@ -53,7 +53,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <fanart>https://i.postimg.cc/d1nxvjcR/adultiptv.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[(MyCamTV).(.*)\n(.*)|,(AdultIPTV).net.(.*)\n(.*)]]></expres>
-<page>https://bit.ly/3o6CB1W</page>                                                           <!--  ESTO ES UNA LISTA EN M3U -->
+<page>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/m3u/all.m3u</page>                                                           <!--  ESTO ES UNA LISTA EN M3U -->
 </regex>
 <thumbnail>https://i.postimg.cc/VvtGL8Ys/adultiptv.png</thumbnail>
 <fanart>https://i.postimg.cc/13BWzMZF/adultiptv.jpg</fanart>
