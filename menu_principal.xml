@@ -11,7 +11,15 @@
 <credits></credits>
 </menus_info>
 
-  
+ <menu>
+<title>[B][COLOR white]SERIES[/COLOR][/B]</title>
+<link>nolink</link>
+<thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
+<fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/listas_iptv/lista_mundial.xml</externallink>
+</menu>
+
+ 
 <menu>
 <title>[B][COLOR white]LISTAS IPTV[/COLOR][/B]</title>
 <link>nolink</link>
@@ -26,6 +34,14 @@
 <fanart>https://i.postimg.cc/V5yMC6q1/snWFe76.jpg</fanart>
 <link>nolink</link>
 <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/canales%20tv/fhotocalltv.xml</externallink>
+</menu>
+
+<menu>
+<title>[B][COLOR white]PLUTO TV[/COLOR][/B]</title>
+<link>nolink</link>
+<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
+<fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/canales%20tv/plutotv_menu.xml</externallink>
 </menu>
 
 <menu>
