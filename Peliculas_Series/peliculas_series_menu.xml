@@ -3,13 +3,19 @@
 <menu>
 
 <menu>
-<title>[COLOR green]•[/COLOR] [B][COLOR red]Juego de Tronos[/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
-<fanart>https://drive.google.com/file/d/1BV5ArI69eDtgks7zEy07fBGQZ2RoXium/view?usp=sharing</fanart>
+<title>[COLOR green]•[/COLOR] [B][COLOR red]Series[/COLOR][/B]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/series/juego%20de%20tronos/temporadas/temporadas.xml</externallink>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/series_menu.xml</externallink>
 </menu>
 
-
+<menu>
+<title>[COLOR green]•[/COLOR] [B][COLOR red]Peliculas[/COLOR][/B]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/series_menu.xml</externallink>
+</menu>
 
 </menu>
