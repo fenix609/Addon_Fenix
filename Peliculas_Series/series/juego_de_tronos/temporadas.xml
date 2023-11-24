@@ -1,50 +1,61 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <menu>
+ 
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]Temporada 1[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/PgvAzjT.png</thumbnail>
+<fanart>https://i.imgur.com/LFQPqJk_d.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/episodios%20T1.xml</externallink>
+</menu>       
 
 <menu>
-<title>[COLOR green]•[/COLOR] [B][COLOR red]Temporada 1[/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]Temporada 2[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/PgvAzjT.png</thumbnail>
+<fanart>https://i.imgur.com/LFQPqJk_d.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/temporadas.xml</externallink>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/episodios%20T2.xml</externallink>
 </menu>
 
 <menu>
-<title>[COLOR green]•[/COLOR] [B][COLOR red]Temporada 2[/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]Temporada 3[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/PgvAzjT.png</thumbnail>
+<fanart>https://i.imgur.com/LFQPqJk_d.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/temporadas.xml</externallink>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/episodios%20T3.xml</externallink>
 </menu>
 
 <menu>
-<title>[COLOR green]•[/COLOR] [B][COLOR red]Temporada 3[/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]Temporada 4[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/PgvAzjT.png</thumbnail>
+<fanart>https://i.imgur.com/LFQPqJk_d.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/temporadas.xml</externallink>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/episodios%20T4.xml</externallink>
 </menu>
+
 <menu>
-<title>[COLOR green]•[/COLOR] [B][COLOR red]Temporada 4[/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]Temporada 5[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/PgvAzjT.png</thumbnail>
+<fanart>https://i.imgur.com/LFQPqJk_d.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/temporadas.xml</externallink>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/episodios%20T5.xml</externallink>
 </menu>
+
 <menu>
-<title>[COLOR green]•[/COLOR] [B][COLOR red]Temporada 5[/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]Temporada 6[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/PgvAzjT.png</thumbnail>
+<fanart>https://i.imgur.com/LFQPqJk_d.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/temporadas.xml</externallink>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/episodios%20T6.xml</externallink>
 </menu>
+
 <menu>
-<title>[COLOR green]•[/COLOR] [B][COLOR red]Temporada 6[/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]Temporada 7[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/PgvAzjT.png</thumbnail>
+<fanart>https://i.imgur.com/LFQPqJk_d.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/temporadas.xml</externallink>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/episodios%20T7.xml</externallink>
 </menu>
 
 </menu>
