@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<series>
+
+<serie id="186">
+      <title>JUEGO DE TRONOS</title>
+      <info>(2011-2019) 8 temporadas. 73 episodios. La historia se desarrolla en un mundo ficticio de carácter medieval donde hay Siete Reinos. Hay tres líneas argumentales principales: la crónica de la guerra civil dinástica por el control de Poniente entre varias familias nobles que aspiran al Trono de Hierro; la creciente amenaza de &quot;los otros&quot;, seres desconocidos que viven al otro lado de un inmenso muro de hielo que protege el Norte de Poniente; y el viaje de Daenerys Targaryen, la hija exiliada del rey que fue asesinado en una guerra civil anterior, y que pretende regresar a Poniente para reclamar sus derechos dinásticos. Tras un largo verano de varios años, el temible invierno se acerca a los Siete Reinos. Lord Eddard 'Ned' Stark, señor de Invernalia, deja sus dominios para ir a la corte de su amigo, el rey Robert Baratheon, en Desembarco del Rey, la capital de los Siete Reinos. Stark se convierte en la Mano del Rey e intenta desentrañar una maraña de intrigas que pondrá en peligro su vida y la de todos los suyos. Mientras tanto, diversas facciones conspiran con un solo objetivo: apoderarse del trono.</info>
+      <year>2011</year>
+      <genre>Aventuras. Drama. Fantástico. Acción. Intriga</genre>
+      <thumb>https://www.themoviedb.org/t/p/original/j24NiYZHsuLEdyYqUunlVCapC04.jpg</thumb>
+      <fanart>https://www.themoviedb.org/t/p/original/suopoADq0k8YZr4dQXcU6pToj6s.jpg</fanart>
+      <seasons>
+         <season id="1" thumb="https://image.tmdb.org/t/p/original/uAWrtCFIJo6gUweHwuSSqRILaIX.jpg" fanart="https://image.tmdb.org/t/p/original/5mqTvxH9xanhQcJd0SLMSAVYaZ2.jpg">
+            <episode id="1" name="1 AL 10 (720)" link="40a380ce1ab6741cc7d50a0fb435063a5d7562c8"/>
+            <episode id="2" name="1 AL 10 (1080)" link="57c02e03977b36a72a0f01cf9d4ad30e60b26706"/>
+         </season>
+         <season id="2" thumb="https://image.tmdb.org/t/p/original/yZtRt90wNuKXuWWrmAnmDz4IEvL.jpg" fanart="https://i.imgur.com/QH0EyTf.jpg">
+            <episode id="1" name="1 AL 10 (720)" link="487b0ba3f89d9f27481901396ce27242b0913fb6"/>
+            <episode id="2" name="1 AL 10 (1080)" link="2542236f7135ca6cf32d910f010f404e8de36696"/>
+         </season>
+         <season id="3" thumb="https://image.tmdb.org/t/p/original/9GCtmu571WbJZfBqeVejEdU4QJU.jpg" fanart="https://www.themoviedb.org/t/p/original/AajildpFyqmqqCJiPKGp7yF2IaB.jpg">
+            <episode id="1" name="1 AL 10" link="03fe28fe34e975adc5cb3d477ad1857e53ec736d"/>
+            <episode id="2" name="1 VALAR DOHAERIS" link="ffa7c71de9d2061dac04933eac5baa95aa4dedf6"/>
+            <episode id="3" name="2  ALAS NEGRAS PALABRAS NEGRAS" link="d4b5a13ce6a9ff232f4088ee10acb305d4948cbc"/>
+            <episode id="4" name="3 EL CAMINO DEL CASTIGO" link="939db972353ed6dc9f3b85955969398dabd81dd5"/>
+            <episode id="5" name="4 Y AHORA SU GUARDIA HA TERMINADO" link="606ddaf7e3b17d92504567523accb64a7337ff2b"/>
+            <episode id="6" name="5 BESADA POR EL FUEGO" link="a9e0d969ce08b09c54f741385b076ba12151811d"/>
+            <episode id="7" name="6 EL ASCENSO" link="d2c7e70982a24fb446c17f158d33d6adb5fbba57"/>
+            <episode id="8" name="7 EL OSO Y LA DONCELLA" link="5b53a7855e5edaddc82daf9844aaa2633bab81a3"/>
+            <episode id="9" name="8 LOS SEGUNDOS HIJOS" link="d93081c7a5fe572875e9aa7c6dc7e26d7f7c7f7b"/>
+            <episode id="10" name="9 LAS LLUVIAS DE CASTAMERE" link="F0836217E8195EE22FF9365B504369B5A3D0A81A"/>
+            <episode id="11" name="10 MHYSA" link="aac09f3568b1ea2ce8df5bdb353b5ac51d1a663b"/>
+         </season>
+         <season id="4" thumb="https://image.tmdb.org/t/p/original/AuuDrWTkGQcvyDbkxaU3gKrPolW.jpg" fanart="https://www.themoviedb.org/t/p/original/1KzqC5t8sAILJbYOB2nxnb2Tdxl.jpg">
+            <episode id="1" name="1 AL 10 (1080)" link="7631229c402d812d5312ab3347b0bad34b26ceb3"/>
+            <episode id="2" name="1 DOS ESPADAS" link="8db184a62e006e46f54afe7cf936a6b1533412ac"/>
+            <episode id="3" name="2 EL LEON Y LA ROSA" link="7cac7b04eb9bfae4515b619aa1069258bdbf600a"/>
+            <episode id="4" name="3 ROMPEDORA DE CADENAS" link="ef0a3439d9c0e4d1b0f0ca63204d4e6add826647"/>
+            <episode id="5" name="4 GUARDAJURAMENTOS" link="ec3c371808efd11203b634a0712983fe9f25b92d"/>
+            <episode id="6" name="5 EL PRIMERO DE SU NOMBRE" link="659f424cdb73d527c4824181d2c5c57419637c7c"/>
+            <episode id="7" name="6 LAS LEYES DE LOS DIOSES Y LOS HOMBRES" link="8d9060b4603872ef3a51913dc38cd65b92a373a6"/>
+            <episode id="8" name="7 SINSORTE" link="91f6a8e199be9eac071e8d315dc45d74ffc422af"/>
+            <episode id="9" name="8 LA MONTAÑA Y LA SERPIENTE" link="c962b67be40ca8833778a7a42f5d819dc45dff38"/>
+            <episode id="10" name="9 LOS VIGILANTES DEL MURO" link="506b2035a6bde7105ff7deb96a9f48384d48226a"/>
+            <episode id="11" name="10 LOS NIÑOS" link="15354f2cc6c2daeb6d297672f9dce77c80dbf697"/>
+         </season>
+         <season id="5" thumb="https://image.tmdb.org/t/p/original/kAMRCBWyYuLxC3r3hSaWCOUZWbe.jpg" fanart="https://image.tmdb.org/t/p/original/qLsx6viZ0NBYQ6nhZ4OOrWXuiBj.jpg">
+            <episode id="1" name="1 AL 10 (1080)" link="4b57a6d2efcd7a3128b02cacef17a2dacff7edc4"/>
+            <episode id="2" name="1 LAS GUERRAS VENIDERAS" link="2bba8c7a5bc6577d10945d88fb2c4b32c4e28afc"/>
+            <episode id="3" name="2 LA CASA DE NEGRO Y BLANCO" link="3ecdc223c454736b754b1a0cf62aa09638f4fb46"/>
+            <episode id="4" name="3 GORRION SUPREMO" link="eda3d84e1738ef961fda29ce2f35a57871057f31"/>
+            <episode id="5" name="4 HIJOS DE LA ARPIA" link="ecc3c68166ba9923a68bd67e955237d6da12fbae"/>
+            <episode id="6" name="5 MATEN AL CHICO" link="7a5c3c788659567424be1b476d71d0f01c073e47"/>
+            <episode id="7" name="6 NUNCA DOBLEGADO NUNCA ROTO" link="35c1bb2bbe0668e13e044b0642f18af150f68cc2"/>
+            <episode id="8" name="7 EL REGALO" link="eb7f28e78a001054846ee52230b17f7c930a5f73"/>
+            <episode id="9" name="8 CASA AUSTERA" link="9361e5edc5a6e29eeabe60ca85cbb61d84f54eba"/>
+            <episode id="10" name="9 DANZA DE DRAGONES" link="00e9dd0ada29eca8cbf82fd40b86277300a56609"/>
+            <episode id="11" name="10 MISERICORDIA" link="c78a11592bedd6eb18e2250b59cd81ce964d958d"/>
+         </season>
+         <season id="6" thumb="https://image.tmdb.org/t/p/original/qBDWhOGuzpDkfuG0Es62ghqFFQg.jpg" fanart="https://www.themoviedb.org/t/p/original/haASBIzQIrXgvrK0bDdHr4A7gBT.jpg">
+            <episode id="1" name="1 AL 10 (1080)" link="18742a21a276037c9eb825b0d2dd5a897a63efd1"/>
+         </season>
+         <season id="7" thumb="https://image.tmdb.org/t/p/original/kHe9Gl4Nv2eBKOe0h7jd7eKZaIJ.jpg" fanart="https://image.tmdb.org/t/p/original/oIgSNOdKrILdo1MHL0hqxwbb9sG.jpg">
+            <episode id="1" name="1 AL 7 (1080)" link="d41ca8e3865f40ce1fe52df82a126d2fa7a13d41"/>
+            <episode id="2" name="1 ROCADRAGON" link="dd03689075e16525a5a0e6037e8121c6e532b765"/>
+            <episode id="3" name="2 BAJO LA TORMENTA" link="e97b7a480e5f7dbdfb538a21e82051d9a939eeeb"/>
+            <episode id="4" name="3 LA JUSTICIA DE LA REINA" link="6821812c7af445ae73e2bf5ad59c7c2d5228608d"/>
+            <episode id="5" name="4 BOTINES DE GUERRA" link="eed66412f4c74e4beaf3d75e30d491677d7d623d"/>
+            <episode id="6" name="5 GUARDAORIENTE" link="b2fc69737eb37a3b8fcad73586ba83c49db7ace0"/>
+            <episode id="7" name="6 MAS ALLA DEL MURO" link="0a9e9e208096f86545dfa0cdc8e196e4d189c0f9"/>
+            <episode id="8" name="7 EL DRAGON Y EL LOBO" link="f56bde4f21481ecc21e4630d5e46ada7bec58368"/>
+         </season>
+         <season id="8" thumb="https://www.themoviedb.org/t/p/original/3hDtRuwTfQQYRst3kjhvp4Cogjw.jpg" fanart="https://www.themoviedb.org/t/p/original/suopoADq0k8YZr4dQXcU6pToj6s.jpg">
+            <episode id="1" name="1 AL 6 (4K)" link="fedc07afed9d7acaaddc7a0c7f26104195ec0002"/>
+            <episode id="2" name="1 INVERNALIA" link="b1d973caf20ac551b5468a87dd7dd740e81316a8"/>
+            <episode id="3" name="2 UN CABALLERO DE LOS 7 REINOS" link="2c77f8a94401898e2cc50ffbfb99d56126806ee3"/>
+            <episode id="4" name="3 LA LARGA NOCHE" link="80baeeb5401c01e965b489f5cdd4787007b392d0"/>
+            <episode id="5" name="4 EXODO" link="3a0a90a3e9dcd223286ad7bb150af36139bd9b2c"/>
+            <episode id="6" name="5 LAS CAMPANAS" link="d46af93e960e8048782ed37ede34339856883122"/>
+            <episode id="7" name="6 EL TRONO DE HIERRO" link="5bfaed8a0c501c1fb4a0eab698b8dcd4db1c12b3"/>
+         </season>
+      </seasons>
+   </serie>
+   </series>
