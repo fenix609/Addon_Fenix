@@ -45,11 +45,11 @@
 </menu>
 
 <menu>
-<title>[B][COLOR white]PLUTO TV[/COLOR][/B]</title>
+<title>[B][COLOR white][/COLOR][/B]</title>
 <link>nolink</link>
 <thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
 <fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/canales%20tv/plutotv_menu.xml</externallink>
+<externallink></externallink>
 </menu>
   
 <!-- <menu>
