@@ -1,13 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF.8" standalone="yes"?>
 
 <menu>
 
 <menu>
-<title>[COLOR green]•[/COLOR] [B][COLOR red]Juego de Tronos[/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
-<fanart>https://drive.google.com/file/d/1BV5ArI69eDtgks7zEy07fBGQZ2RoXium/view?usp=sharing</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/series/juego%20de%20tronos/temporadas/temporadas.xml</externallink>
+<title>[COLOR white].[/COLOR] [B][COLOR red]GAMOVIDEO[/COLOR][/B]</title>
+<thumbnail>https://drive.google.com/file/d/1qVE4G7y6jjbQVP-hKXrKprMK0HPYHKuC/view?usp=sharing</thumbnail>
+<fanart>https://i.imgur.com/LFQPqJk_d.jpg</fanart>
+<externallink>https://drive.google.com/file/d/1U6vHES9aSFKEEuhGuZ9fu0qz99tnofQI/view</externallink>
+</menu>
+
+<menu>
+<title>[COLOR white].[/COLOR] [B][COLOR red]STREAMTAPE[/COLOR][/B]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink>https://drive.google.com/file/d/1C0f2KY22VPPfw-DIBOASuYMk4s9RHNHN/view</externallink>
 </menu>
 
 
