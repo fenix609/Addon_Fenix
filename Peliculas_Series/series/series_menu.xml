@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menu>
+<menus>
+  
+<menus_info>
+<title>[COLOR red][/COLOR][COLOR yellow]JUEGO DE TRONOS[/COLOR][COLOR red][/COLOR]</title>
+<genre>ALL</genre>
+<description></description>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<credits></credits>
+</menus_info>
 
-<menu>
-<title>[COLOR green]•[/COLOR] [B][COLOR red]Juego de Tronos[/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
-<fanart>https://drive.google.com/file/d/1BV5ArI69eDtgks7zEy07fBGQZ2RoXium/view?usp=sharing</fanart>
-<link>http://ignoreme</link>
+ <menu>
+<title>[B][COLOR white]Juego de Tronos[/COLOR][/B]</title>
+<link>nolink</link>
+<thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
+<fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/temporadas.xml</externallink>
 </menu>
 
 
-
-</menu>
+</menus>
