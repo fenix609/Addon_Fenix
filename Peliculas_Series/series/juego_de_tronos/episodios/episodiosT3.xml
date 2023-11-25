@@ -10,29 +10,7 @@
 <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/servidoresT3/servidores1.xml</externallink>
 </menu>
 
-<menu>
-<title>[COLOR white].[/COLOR] [B][COLOR white]Juego De Tronos 3X02 -[/COLOR] [COLOR yellow] Alas Negras, Palabras Negras[/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/PgvAzjT.png</thumbnail>
-<fanart>https://i.imgur.com/LFQPqJk_d.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>hhttps://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/servidoresT3/servidores2.xml
-</menu>
 
-<menu>
-<title>[COLOR white].[/COLOR] [B][COLOR white]Juego De Tronos 3X03 -[/COLOR] [COLOR yellow] El Camino Del Castigo[/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/PgvAzjT.png</thumbnail>
-<fanart>https://i.imgur.com/LFQPqJk_d.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/servidoresT3/servidores3.xml</externallink>
-</menu>
-
-<menu>
-<title>[COLOR white].[/COLOR] [B][COLOR white]Juego De Tronos 3X04 -[/COLOR] [COLOR yellow] Y Ahora Su Guardia Ha Terminado[/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/PgvAzjT.png</thumbnail>
-<fanart>https://i.imgur.com/LFQPqJk_d.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/servidoresT3/servidores4.xml</externallink> 
-</menu>
 <menu>
 <title>[COLOR white]•[/COLOR] [B][COLOR white]Juego De Tronos 3X06 -[/COLOR] [COLOR yellow] El Ascenso[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/PgvAzjT.png</thumbnail>
@@ -49,5 +27,28 @@
 <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/servidoresT3/servidores7.xml</externallink>
 </menu>
 
+<menu>
+<title>[COLOR white].[/COLOR] [B][COLOR white]Juego De Tronos 3X08 -[/COLOR] [COLOR yellow] Los Segundos Hijos[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/PgvAzjT.png</thumbnail>
+<fanart>https://i.imgur.com/LFQPqJk_d.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/servidoresT3/servidores8.xml</externallink>
+</menu>
+
+<menu>
+<title>[COLOR white].[/COLOR] [B][COLOR white]Juego De Tronos 3X09 -[/COLOR] [COLOR yellow] Las Lluvias De Castamere[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/PgvAzjT.png</thumbnail>
+<fanart>https://i.imgur.com/LFQPqJk_d.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/servidoresT3/servidores9.xml</externallink>
+</menu>
+
+<menu>
+<title>[COLOR white].[/COLOR] [B][COLOR white]Juego De Tronos 3X10 -[/COLOR] [COLOR yellow] Mhysa[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/PgvAzjT.png</thumbnail>
+<fanart>https://i.imgur.com/LFQPqJk_d.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/servidoresT3/servidores10.xml</externallink>
+</menu>
 
 </menu>
