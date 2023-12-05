@@ -2,16 +2,16 @@
 
 <menus>
   
-<!-- <menus_info>
-<title>[COLOR red][/COLOR][COLOR yellow]JUEGO DE TRONOS[/COLOR][COLOR red][/COLOR]</title>
+<menus_info>
+<title>[COLOR red][/COLOR][COLOR yellow]MENUS[/COLOR][COLOR red][/COLOR]</title>
 <genre>ALL</genre>
 <description></description>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <credits></credits>
-</menus_info> -->
+</menus_info>
 
- <menu>
+<menu>
 <title>[B][COLOR white]SERIES[/COLOR][/B]</title>
 <link>nolink</link>
 <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
