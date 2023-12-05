@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <menus>
-  
+<!--   
 <menus_info>
 <title>[COLOR red][/COLOR][COLOR yellow]JUEGO DE TRONOS[/COLOR][COLOR red][/COLOR]</title>
 <genre>ALL</genre>
@@ -9,12 +9,12 @@
 <thumbnail></thumbnail>
 <fanart></fanart>
 <credits></credits>
-</menus_info>
+</menus_info> -->
 
  <menu>
 <title>[COLOR red]✱[/COLOR][B][COLOR white]Los caballeros del zoodiaco 2023[/COLOR][/B]</title>
 <link>nolink</link>
-<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6I1WjtQuSqXyUN7OQz60NxD-cRCZ7KVBGOhmgRlce8r6nCjFZSxFvGHRL-VbXSYXHaew&usqp=CAU</thumbnail>
+<thumbnail></thumbnail>
 <fanart>https://i.blogs.es/42bfe5/caballeros-del-zodiavco/1366_2000.jpeg</fanart>
 <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/temporadas.xml</externallink>
 </menu>
