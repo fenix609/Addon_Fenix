@@ -1,23 +1,35 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF.8" standalone="yes"?>
 
-<menus>
-<!--   
-<menus_info>
-<title>[COLOR red][/COLOR][COLOR yellow]JUEGO DE TRONOS[/COLOR][COLOR red][/COLOR]</title>
-<genre>ALL</genre>
-<description></description>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<credits></credits>
-</menus_info> -->
+<menu>
 
- <menu>
-<title>[COLOR red]✱[/COLOR][B][COLOR white]finciona[/COLOR][/B]</title>
-<link>nolink</link>
+
+
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]STREAMTAPE[/COLOR][/B]</title>
 <thumbnail></thumbnail>
 <fanart>https://i.blogs.es/42bfe5/caballeros-del-zodiavco/1366_2000.jpeg</fanart>
-<externallink></externallink>
+<urlsolve>https://streamtape.com/v/Qe4jXDjZq0T0O07/los_caballeros_del_zodiaco_2023.mp4</urlsolve>
 </menu>
 
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]VIDOZA[/COLOR][/B]</title>
+<thumbnail></thumbnail>
+<fanart>https://i.blogs.es/42bfe5/caballeros-del-zodiavco/1366_2000.jpeg</fanart>
+<urlsolve>https://vidoza.net/k8000mk60x25.html</urlsolve>
+</menu>
 
-</menus>
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]DOODSTREAM[/COLOR][/B]</title>
+<thumbnail></thumbnail>
+<fanart>https://i.blogs.es/42bfe5/caballeros-del-zodiavco/1366_2000.jpeg</fanart>
+<urlsolve>https://ds2play.com/d/bs9fd2zk539i</urlsolve>
+</menu>
+
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]GAMOVIDEO[/COLOR][/B]</title>
+<thumbnail></thumbnail>
+<fanart>https://i.blogs.es/42bfe5/caballeros-del-zodiavco/1366_2000.jpeg</fanart>
+<urlsolve>https://gamovideo.com/4ockqb0ygdde</urlsolve>
+</menu>
+
+</menu>
