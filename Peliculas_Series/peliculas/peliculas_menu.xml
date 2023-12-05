@@ -1,7 +1,7 @@
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menus>
+<menu>
   
 <menus_info>
 <title>[COLOR red][/COLOR][COLOR yellow]MENU PELICULAS[/COLOR][COLOR red][/COLOR]</title>
@@ -21,4 +21,4 @@
 </menu>
 
 
-</menus>
+</menu>
