@@ -1,10 +1,9 @@
-
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menu>
+<menus>
   
 <menus_info>
-<title>[COLOR red][/COLOR][COLOR yellow]MENU PELICULAS[/COLOR][COLOR red][/COLOR]</title>
+<title>[COLOR red][/COLOR][COLOR yellow]JUEGO DE TRONOS[/COLOR][COLOR red][/COLOR]</title>
 <genre>ALL</genre>
 <description></description>
 <thumbnail></thumbnail>
@@ -13,12 +12,12 @@
 </menus_info>
 
 <menu>
-<title>[COLOR red]•[/COLOR][B][COLOR white]Los caballeros del zoodiaco 2023[/COLOR][/B]</title>
-<link></link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/series_menu.xml</externallink>
+<title>[COLOR red]✱[/COLOR][B][COLOR white]JUEGO DE TRONOS[/COLOR][/B]</title>
+<link>nolink</link>
+<thumbnail>https://i.imgur.com/GFtmo9n.pngg</thumbnail>
+<fanart>https://i.imgur.com/X3aAwEh.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/temporadas.xml</externallink>
 </menu>
 
 
-</menu>
+</menus>
