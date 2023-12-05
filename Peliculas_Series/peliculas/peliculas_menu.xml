@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <menus>
-<!--   
+  
 <menus_info>
 <title>[COLOR red][/COLOR][COLOR yellow]JUEGO DE TRONOS[/COLOR][COLOR red][/COLOR]</title>
 <genre>ALL</genre>
@@ -9,7 +9,7 @@
 <thumbnail></thumbnail>
 <fanart></fanart>
 <credits></credits>
-</menus_info> -->
+</menus_info>
 
  <menu>
 <title>[COLOR red]✱[/COLOR][B][COLOR white]Los caballeros del zoodiaco 2023[/COLOR][/B]</title>
