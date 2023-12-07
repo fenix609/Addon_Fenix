@@ -10,19 +10,18 @@
 </menu>
 
 <menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR white]Juego De Tronos 5X02 - [/COLOR] [COLOR grey]La Casa De Negro Y Blanco -[/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/Rn95eWC.png</thumbnail>
-<fanart>https://i.imgur.com/LFQPqJk_d.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/servidoresT5/servidores2.xml</externallink>
+<title>[COLOR white].[/COLOR] [B][COLOR red]Juego De Tronos 6X02 - A Casa[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/wugXWN8.png</thumbnail>
+<fanart>https://i.imgur.com/8UnzRNY.jpg</fanart>
+<urlsolve>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/servidoresT6/servidores2.xml</urlsolve>
 </menu>
 
+
 <menu>
-<title>[COLOR white]•[/COLOR] [B][COLOR white]Juego De Tronos 5X03 -[/COLOR] [COLOR grey]Gorrión Supremo[/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/Rn95eWC.png</thumbnail>
-<fanart>https://i.imgur.com/LFQPqJk_d.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/servidoresT5/servidores3.xml</externallink>
+<title>[COLOR white].[/COLOR] [B][COLOR red]Juego De Tronos 6X03 - Perjuro[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/wugXWN8.png</thumbnail>
+<fanart>https://i.imgur.com/8UnzRNY.jpg</fanart>
+<urlsolve>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/series/juego_de_tronos/servidoresT6/servidores3.xml</urlsolve>
 </menu>
 
 <menu>
