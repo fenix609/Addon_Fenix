@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menus>
+<menu>
   
-<menus_info>
-<title>[COLOR red][/COLOR][COLOR yellow]MENUS[/COLOR][COLOR red][/COLOR]</title>
-<genre>ALL</genre>
-<description></description>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<credits></credits>
-</menus_info>
-
 <menu>
 <title>[B][COLOR white]- Asturias 2010[/COLOR][/B]</title>
 <link>nolink</link>
@@ -20,4 +11,4 @@
 </menu>
 
  
-</menus>
+</menu>
