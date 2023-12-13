@@ -3,21 +3,29 @@
 <menus>
   
 <menus_info>
-<title>[COLOR red][/COLOR][COLOR yellow]MENUS[/COLOR][COLOR red][/COLOR]</title>
+<title>[COLOR red]Addon[/COLOR][COLOR yellow] Fenix[/COLOR][COLOR red]Tv[/COLOR]</title>
 <genre>ALL</genre>
-<description></description>
+<description>Contenido variado en español</description>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <credits></credits>
 </menus_info>
 
-<menu>
-<title>[B][COLOR white]- VIDEOS FAMILIA[/COLOR][/B]</title>
+ <menu>
+<title>[B][COLOR white]VIDEOS FAMILIA[/COLOR][/B]</title>
 <link>nolink</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
+<fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/videos.xml</externallink>
 </menu>
 
- 
+<menu>
+<title>[B][COLOR white]LISTAS IPTV[/COLOR][/B]</title>
+<link>nolink</link>
+<thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
+<fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/listas_iptv/lista_mundial.xml</externallink>
+</menu>
+
+
 </menus>
