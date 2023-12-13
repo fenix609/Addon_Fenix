@@ -51,6 +51,14 @@
 <fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
 <externallink></externallink>
 </menu>
+
+<menu>
+<title>[B][COLOR white]JAVI[/COLOR][/B]</title>
+<link>nolink</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/menu_javi.xml</externallink>
+</menu>
   
 <!-- <menu>
 <title>[B][COLOR white]SAMSUNG TV PLUS[/COLOR][/B]</title>
