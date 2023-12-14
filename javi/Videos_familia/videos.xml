@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menus>
+<menu>
   
 <menus_info>
 <title>[COLOR red]Addon[/COLOR][COLOR yellow] Fenix[/COLOR][COLOR red]Tv[/COLOR]</title>
@@ -19,4 +19,4 @@
 <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidores_asturias.xml</externallink>
 </menu>
 
-</menus>
+</menu>
