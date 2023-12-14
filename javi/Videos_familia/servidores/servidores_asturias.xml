@@ -1,30 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menu>
+<menus>
   
 <menus_info>
-<title>[COLOR red]Addon[/COLOR][COLOR yellow] Fenix[/COLOR][COLOR red]Tv[/COLOR]</title>
+<title>[COLOR red][/COLOR][COLOR yellow]MENUS[/COLOR][COLOR red][/COLOR]</title>
 <genre>ALL</genre>
-<description>Contenido variado en español</description>
+<description></description>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <credits></credits>
 </menus_info>
 
 <menu>
-<title>[B][COLOR white]- STREAMTAPE[/COLOR][/B]</title>
+<title>[B][COLOR white]-STREAMTAPE[/COLOR][/B]</title>
 <link>nolink</link>
-<thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
-<fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-<externallink>https://streamtape.com/v/VYwjq6Bx6mtKDk6/asturias_2010.mp4</externallink>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<urlsolve>https://streamtape.com/v/VYwjq6Bx6mtKDk6/asturias_2010.mp4</urlsolve>
 </menu>
 
 <menu>
-<title>[B][COLOR white]- VIDOZA[/COLOR][/B]</title>
+<title>[B][COLOR white]-VIDOZA[/COLOR][/B]</title>
 <link>nolink</link>
-<thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
-<fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-<externallink>https://vidoza.net/28xhgu9nwase.html</externallink>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<urlsolve>https://vidoza.net/28xhgu9nwase.html</urlsolve>
 </menu>
 
+<menu>
+<title>[B][COLOR white]-DOODSTREAM[/COLOR][/B]</title>
+<link>nolink</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<urlsolve>https://ds2play.com/d/fgck276a95ba</urlsolve>
 </menu>
+
+
+ 
+</menus>
