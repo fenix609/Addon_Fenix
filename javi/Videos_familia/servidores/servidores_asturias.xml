@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menus>
-  
-<menus_info>
-<title>[COLOR red][/COLOR][COLOR yellow]MENUS[/COLOR][COLOR red][/COLOR]</title>
-<genre>ALL</genre>
-<description></description>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<credits></credits>
-</menus_info>
-
+<menu>
+ 
 <menu>
 <title>[B][COLOR white]- STREAMTAPE[/COLOR][/B]</title>
 <link>nolink</link>
@@ -37,4 +28,4 @@
 
 
  
-</menus>
+</menu>
