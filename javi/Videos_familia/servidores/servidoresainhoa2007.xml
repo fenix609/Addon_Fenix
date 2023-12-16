@@ -4,7 +4,6 @@
   
     <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] STREAMTAPE[/COLOR][/B]</title>
-         <link></link>
          <thumbnail></thumbnail>
          <fanart></fanart>
          <urlsolve>https://streamtape.com/v/KJz3Rz2WyaH0Zy1/ainhoa2007.mp4</urlsolve>
@@ -12,13 +11,15 @@
 
     <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] VIDOZA[/COLOR][/B]</title>
+         <thumbnail></thumbnail>
+         <fanart></fanart>
          <urlsolve>https://vidoza.net/5bhdbvgp7znv.html</urlsolve>
     </menu>
 
     <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] DOODSTREAM[/COLOR][/B]</title>
-         <thumbnail>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</thumbnail>
-         <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
+         <thumbnail></thumbnail>
+         <fanart></fanart>
          <urlsolve>https://ds2play.com/d/1fb9g6a3ujt1</urlsolve>
     </menu>
 
