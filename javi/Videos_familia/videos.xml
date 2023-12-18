@@ -41,5 +41,14 @@
          <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
          <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidorescal%C3%A7otada2001.xml</externallink>
     </menu>
+	
+	<menu>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] Navidad 2007[/COLOR][/B]</title>
+         <link>nolink</link>
+         <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
+         <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
+         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidoresnavidad2007.xml</externallink>
+    </menu>
+
 
 </menu>
