@@ -9,6 +9,7 @@
          <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
          <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidores_asturias.xml</externallink>
     </menu>
+	
 	<menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] Ainhoa 2007 [/COLOR][/B]</title>
          <link>nolink</link>
@@ -16,6 +17,7 @@
          <fanart></fanart>
          <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidoresainhoa2007.xml</externallink>
     </menu> 
+	
 	<menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] Arbucias 2001[/COLOR][/B]</title> 
          <link>nolink</link>
@@ -24,21 +26,23 @@
          <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidoresarbucias2001.xml</externallink>
     </menu> 
  
- <menu>
+    <menu>
          <title>[COLOR white]•[/COLOR][B]Boda Loli y Martin[COLOR white] [/COLOR][/B]</title>
          <link>nolink</link>
          <thumbnail></thumbnail>
          <fanart></fanart>
          <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidoresbodalolimartin.xml</externallink>
     </menu> 
- <menu>
+	
+    <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] [/COLOR][/B]</title>
          <link>nolink</link>
          <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
          <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
          <externallink></externallink>
     </menu> 
- <menu>
+	
+    <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] [/COLOR][/B]</title>
          <link>nolink</link>
          <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
