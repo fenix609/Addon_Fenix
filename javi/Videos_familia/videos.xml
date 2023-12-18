@@ -11,7 +11,7 @@
 	
 	<menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] Ainhoa 2007 [/COLOR][/B]</title>
-         <thumbnail>>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
+         <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
          <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
          <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidoresainhoa2007.xml</externallink>
     </menu> 
@@ -30,20 +30,6 @@
          <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidoresbodalolimartin.xml</externallink>
     </menu> 
 	
-    <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] [/COLOR][/B]</title>
-         <link>nolink</link>
-         <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
-         <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-         <externallink></externallink>
-    </menu> 
-	
-    <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] [/COLOR][/B]</title>
-         <link>nolink</link>
-         <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
-         <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-         <externallink></externallink>
-    </menu> 
+    
  
 </menu>
