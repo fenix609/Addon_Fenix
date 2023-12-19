@@ -2,44 +2,36 @@
 
 <menu>
   
-    <menu>	
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Toledo 1999[/COLOR][/B]</title>
+  <menu>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] Ainhoa 2007 [/COLOR][/B]</title>
          <link>nolink</link>
          <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
          <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidorestoledo1999.xml</externallink>		 
-    </menu>
-
-     <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Villasequilla madrid 2000[/COLOR][/B]</title>
-         <link>nolink</link>
-         <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
-         <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidoresvillasequillamadrid2000.xml</externallink>
-    </menu>
-
-	<menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Arbucias 2001[/COLOR][/B]</title> 
-		 <link>nolink</link>
-         <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
-         <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidoresarbucias2001.xml</externallink>
+         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidoresainhoa2007.xml</externallink>
     </menu>
 	
 	<menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Calçotada 2001[/COLOR][/B]</title>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] Navidad 2007[/COLOR][/B]</title>
          <link>nolink</link>
          <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
          <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidorescal%C3%A7otada2001.xml</externallink>
+         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidoresnavidad2007.xml</externallink>
     </menu>
 	
 	<menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Boda Loli y Martin [/COLOR][/B]</title>
+         <title>[COLOR white]•[/COLOR][B][COLOR white]Cumpleaños ainhoa 2008[/COLOR][/B]</title>
          <link>nolink</link>
          <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
          <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidoresbodalolimartin.xml</externallink>
+         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidorescumpleainhoa2008.xml</externallink>
+    </menu>
+
+	<menu>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] Verano 2008 la siesta[/COLOR][/B]</title>
+         <link>nolink</link>
+         <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
+         <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
+         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidoresverano2008siesta.xml</externallink>
     </menu>
 	
 </menu>
