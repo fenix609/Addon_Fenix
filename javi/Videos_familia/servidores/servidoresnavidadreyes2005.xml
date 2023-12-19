@@ -1,40 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menus>
+<menu>
   
-<menus_info>
-<title>[COLOR red][/COLOR][COLOR yellow]MENUS[/COLOR][COLOR red][/COLOR]</title>
-<genre>ALL</genre>
-<description></description>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<credits></credits>
-</menus_info>
 
-<menu>
-<title>[B][COLOR white]-STREAMTAPE[/COLOR][/B]</title>
-<link>nolink</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<externallink>https://streamtape.com/v/gdLd3O6KKDSq20l/navidad_reyes_2005.mp4</externallink>
-</menu>
+    <menu>
+         <title>[B][COLOR white]-STREAMTAPE[/COLOR][/B]</title>
+         <link>nolink</link>
+         <thumbnail></thumbnail>
+         <fanart></fanart>
+         <externallink>https://streamtape.com/v/gdLd3O6KKDSq20l/navidad_reyes_2005.mp4</externallink>
+    </menu>
 
-<menu>
-<title>[B][COLOR white]-VIDOZA[/COLOR][/B]</title>
-<link>nolink</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<externallink>https://vidoza.net/kp6l6hq5c3kl.html</externallink>
-</menu>
+    <menu>
+         <title>[B][COLOR white]-VIDOZA[/COLOR][/B]</title>
+         <link>nolink</link>
+         <thumbnail></thumbnail>
+         <fanart></fanart>
+         <externallink>https://vidoza.net/kp6l6hq5c3kl.html</externallink>
+    </menu>
 
-<menu>
-<title>[B][COLOR white]-DOODSTREAM[/COLOR][/B]</title>
-<link>nolink</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<externallink>https://ds2play.com/d/qwbt73oybh7w</externallink>
-</menu>
-
-
+    <menu>
+         <title>[B][COLOR white]-DOODSTREAM[/COLOR][/B]</title>
+         <link>nolink</link>
+         <thumbnail></thumbnail>
+         <fanart></fanart>
+         <externallink>https://ds2play.com/d/qwbt73oybh7w</externallink>
+    </menu>
  
-</menus>
+</menu>
