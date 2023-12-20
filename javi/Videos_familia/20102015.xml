@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menus>
+<menu>
   
-    <menu>
+     <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] Asturias 2010[/COLOR][/B]</title>
-		 <link>nolink</link>
+         <link>nolink</link>
          <thumbnail></thumbnail>
-         <fanart></fanart>
+         <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
          <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidores_asturias.xml</externallink>
     </menu>
-
-    <menu>
+	
+	<menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] Navidad 2010 reyes 2011[/COLOR][/B]</title>
-		 <link>nolink</link>
+         <link>nolink</link>
          <thumbnail></thumbnail>
-         <fanart></fanart>
+         <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
          <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidoresnavidad2010.xml</externallink>
     </menu>
-
- 
-</menus>
+	
+</menu>
+   
+   
