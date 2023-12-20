@@ -4,6 +4,7 @@
   
     <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] Asturias 2010[/COLOR][/B]</title>
+		 <link>nolink</link>
          <thumbnail></thumbnail>
          <fanart></fanart>
          <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidores_asturias.xml</externallink>
@@ -11,6 +12,7 @@
 
     <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] Navidad 2010 reyes 2011[/COLOR][/B]</title>
+		 <link>nolink</link>
          <thumbnail></thumbnail>
          <fanart></fanart>
          <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidoresnavidad2010.xml</externallink>
