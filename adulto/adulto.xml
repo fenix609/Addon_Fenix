@@ -3,26 +3,38 @@
 <menus>
   
     <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] STREAMTAPE[/COLOR][/B]</title>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] Video 1[/COLOR][/B]</title>
          <thumbnail>https://i.imgur.com/ZnOrvMj.jpg</thumbnail>
          <fanart>https://i.imgur.com/nj9wjfm.jpg</fanart>
-         <urlsolve></urlsolve>
+         <externallink></externallink>
     </menu>
 
     <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] VIDOZA[/COLOR][/B]</title>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] Video 2[/COLOR][/B]</title>
          <thumbnail>https://i.imgur.com/ZnOrvMj.jpg</thumbnail>
          <fanart>https://i.imgur.com/nj9wjfm.jpg</fanart>
-         <urlsolve></urlsolve>
+         <externallink></externallink>
     </menu>
 
     <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] DOODSTREAM[/COLOR][/B]</title>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] Video 3[/COLOR][/B]</title>
          <thumbnail>https://i.imgur.com/ZnOrvMj.jpg</thumbnail>
          <fanart>https://i.imgur.com/nj9wjfm.jpg</fanart>
-         <urlsolve></urlsolve>
+         <externallink></externallink>
     </menu>
 
-
+    <menu>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] Video 4[/COLOR][/B]</title>
+         <thumbnail>https://i.imgur.com/ZnOrvMj.jpg</thumbnail>
+         <fanart>https://i.imgur.com/nj9wjfm.jpg</fanart>
+         <externallink></externallink>
+    </menu>
+	
+	<menu>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] Video 5[/COLOR][/B]</title>
+         <thumbnail>https://i.imgur.com/ZnOrvMj.jpg</thumbnail>
+         <fanart>https://i.imgur.com/nj9wjfm.jpg</fanart>
+         <externallink></externallink>
+    </menu>
  
 </menus>
