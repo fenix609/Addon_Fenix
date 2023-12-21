@@ -5,24 +5,18 @@
     <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] STREAMTAPE[/COLOR][/B]</title>
          <thumbnail></thumbnail>
-         <fanart></fanart>
+         <fanart>https://i.imgur.com/nj9wjfm.jpg</fanart>
          <urlsolve></urlsolve>
     </menu>
 
     <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] VIDOZA[/COLOR][/B]</title>
          <thumbnail></thumbnail>
-         <fanart></fanart>
-         <urlsolve></urlsolve>
+         <fanart>https://i.imgur.com/nj9wjfm.jpg</fanart>
+         <urlsolve>https://vidoza.net/ncuvre0fot1z.html</urlsolve>
     </menu>
 
-    <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] DOODSTREAM[/COLOR][/B]</title>
-         <thumbnail></thumbnail>
-         <fanart></fanart>
-         <urlsolve></urlsolve>
-    </menu>
-
+   
 
  
 </menus>
