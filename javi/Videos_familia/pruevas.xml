@@ -3,28 +3,21 @@
 <menu>
   
      <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Asturias 2010[/COLOR][/B]</title>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] [/COLOR][/B]</title>
          <link>nolink</link>
          <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
          <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidores_asturias.xml</externallink>
+         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/pruebas.xml</externallink>
     </menu>
 	
 	<menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Navidad 2010 reyes 2011[/COLOR][/B]</title>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] [/COLOR][/B]</title>
          <link>nolink</link>
          <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
          <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidoresnavidad2010.xml</externallink>
+         <externallink></externallink>
     </menu>
 	
-	<menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Pruebas[/COLOR][/B]</title>
-         <link>nolink</link>
-         <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
-         <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/servidoresnavidad2010.xml</externallink>
-    </menu>
 </menu>
    
    
