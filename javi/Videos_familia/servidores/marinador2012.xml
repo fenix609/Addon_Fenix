@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menus>
-  
-    <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] STREAMTAPE[/COLOR][/B]</title>
-         <thumbnail></thumbnail>
-         <fanart></fanart>
-         <urlsolve>https://streamtape.com/v/2qxXjVwDRyIZOZ0/Salida.mp4</urlsolve>
-    </menu>
+<menu>
 
     <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] VIDOZA[/COLOR][/B]</title>
-         <thumbnail></thumbnail>
-         <fanart></fanart>
-         <urlsolve></urlsolve>
-    </menu>
+       <title>[COLOR white]•[/COLOR][B][COLOR white] STREAMTAPE [/COLOR][/B]</title>
+       <thumbnail></thumbnail>
+       <fanart></fanart>
+       <urlsolve>https://streamtape.com/v/2qxXjVwDRyIZOZ0/marinador2012</urlsolve>
+    </menu> 
+
 
     <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] DOODSTREAM[/COLOR][/B]</title>
-         <thumbnail></thumbnail>
-         <fanart></fanart>
-         <urlsolve>https://ds2video.com/d/jgdkltrx9ud0</urlsolve>
+       <title>[COLOR white]•[/COLOR][B][COLOR white]VIDOZA[/COLOR][/B]</title>
+       <thumbnail></thumbnail>
+       <fanart></fanart>
+       <urlsolve>https://vidoza.net/28xhgu9nwase.html</urlsolve>
+	</menu>
+	
+    <menu>
+       <title>[COLOR white]•[/COLOR][B][COLOR white] DOODSTREAM[/COLOR][/B]</title>
+       <thumbnail></thumbnail>
+       <fanart></fanart>
+       <urlsolve>https://d0o0d.com/d/obe0xz3wlzec</urlsolve>
     </menu>
-
-
-</menus>
+</menu>
