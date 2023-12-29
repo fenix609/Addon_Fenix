@@ -19,5 +19,14 @@
 <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/caballeros_zoodiaco/servidores.xml</externallink>
 </menu>
 
+<menu>
+<title>[COLOR red]•[/COLOR][B][COLOR white] Mortadelo y filemon[/COLOR][/B]</title>
+<link>nolink</link>
+<thumbnail>nolink</thumbnail>
+<fanart>https://i.blogs.es/42bfe5/caballeros-del-zodiavco/1366_2000.jpeg</fanart>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/mortadelo.xml</externallink>
+</menu>
+
+
 
 </menus>
