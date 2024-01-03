@@ -1,33 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <menu>
-	
-	<menu>
-       <title>[COLOR white]•[/COLOR][B][COLOR white] Escocia 2006 STREAMTAPE [/COLOR][/B]</title>
-       <thumbnail></thumbnail>
-       <fanart></fanart>
-       <urlsolve>https://streamtape.com/v/ZVPpYdK1XlTqzjm/escocia2006.mp4</urlsolve>
+
+    <menu>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] Escocia 2006 STREAMTAPEs[/COLOR][/B]</title>
+         <thumbnail></thumbnail>
+         <fanart></fanart>
+         <urlsolve>https://streamtape.com/v/ZVPpYdK1XlTqzjm/escocia2006.mp4</urlsolve>
+    </menu>
+  
+    <menu>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] Escocia 2006 DOODSTREAM[/COLOR][/B]</title>
+         <thumbnail></thumbnail>
+         <fanart></fanart>
+         <urlsolve>https://doodstream.com/d/mcda3i3jtww1</urlsolve>
     </menu>
 	
-	<menu>
-       <title>[COLOR white]•[/COLOR][B][COLOR white] Escocia 2006 DOODSTREAM [/COLOR][/B]</title>
-       <thumbnail></thumbnail>
-       <fanart></fanart>
-       <urlsolve>https://doodstream.com/d/mcda3i3jtww1</urlsolve>
-    </menu>
-	
-	<menu>
-       <title>[COLOR white]•[/COLOR][B][COLOR white] Marina d'or 2012 parte 1 DOODSTREAM [/COLOR][/B]</title>
-       <thumbnail></thumbnail>
-       <fanart></fanart>
-       <urlsolve>https://doodstream.com/d/csqr5azhyqxu</urlsolve>
-    </menu>
-	
-	<menu>
-       <title>[COLOR white]•[/COLOR][B][COLOR white] Marina d'or 2012 parte 2 DOODSTREAM [/COLOR][/B]</title>
-       <thumbnail></thumbnail>
-       <fanart></fanart>
-       <urlsolve>https://doodstream.com/d/uxvgbu4gled6</urlsolve>
-    </menu>
-	
+ 
 </menu>
