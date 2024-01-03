@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <menus>
-
-    <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Escocia 2006 STREAMTAPEs[/COLOR][/B]</title>
-         <thumbnail></thumbnail>
-         <fanart></fanart>
-         <urlsolve>https://streamtape.com/v/ZVPpYdK1XlTqzjm/escocia2006.mp4</urlsolve>
-    </menu>
   
     <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Escocia 2006 DOODSTREAM[/COLOR][/B]</title>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] Salou 2011 STREAMTAPE[/COLOR][/B]</title>
          <thumbnail></thumbnail>
          <fanart></fanart>
-         <urlsolve>https://doodstream.com/d/mcda3i3jtww1</urlsolve>
+         <urlsolve>https://streamtape.com/v/myVwbg4vKAFb8XJ/salou2011.mp4</urlsolve>
     </menu>
-	
+
+    <menu>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] Salou 2011 DOODSTREAM[/COLOR][/B]</title>
+         <thumbnail></thumbnail>
+         <fanart></fanart>
+         <urlsolve>https://doodstream.com/d/j9nzjwjibksx</urlsolve>
+    </menu>
  
 </menus>
