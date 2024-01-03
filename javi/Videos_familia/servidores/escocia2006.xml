@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menus>
-  
-    <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Salou 2011 STREAMTAPE[/COLOR][/B]</title>
-         <thumbnail></thumbnail>
-         <fanart></fanart>
-         <urlsolve>https://streamtape.com/v/myVwbg4vKAFb8XJ/salou2011.mp4</urlsolve>
+<menu>
+	
+	<menu>
+       <title>[COLOR white]•[/COLOR][B][COLOR white] Marina d'or 2012 parte 1 STREAMTAPE [/COLOR][/B]</title>
+       <thumbnail></thumbnail>
+       <fanart></fanart>
+       <urlsolve>https://streamtape.com/v/eGXrWYO11ZSYgLp/marinador20120parte1.mp4</urlsolve>
     </menu>
-
-    <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Salou 2011 DOODSTREAM[/COLOR][/B]</title>
-         <thumbnail></thumbnail>
-         <fanart></fanart>
-         <urlsolve>https://doodstream.com/d/j9nzjwjibksx</urlsolve>
+	
+	<menu>
+       <title>[COLOR white]•[/COLOR][B][COLOR white] Marina d'or 2012 parte 2 STREAMTAPE [/COLOR][/B]</title>
+       <thumbnail></thumbnail>
+       <fanart></fanart>
+       <urlsolve>https://streamtape.com/v/G31wLl29qXUo1B/marinador20120parte2.mp4</urlsolve>
     </menu>
- 
-</menus>
+	
+	<menu>
+       <title>[COLOR white]•[/COLOR][B][COLOR white] Marina d'or 2012 parte 1 DOODSTREAM [/COLOR][/B]</title>
+       <thumbnail></thumbnail>
+       <fanart></fanart>
+       <urlsolve>https://doodstream.com/d/csqr5azhyqxu</urlsolve>
+    </menu>
+	
+	<menu>
+       <title>[COLOR white]•[/COLOR][B][COLOR white] Marina d'or 2012 parte 2 DOODSTREAM [/COLOR][/B]</title>
+       <thumbnail></thumbnail>
+       <fanart></fanart>
+       <urlsolve>https://doodstream.com/d/uxvgbu4gled6</urlsolve>
+    </menu>
+	
+</menu>
