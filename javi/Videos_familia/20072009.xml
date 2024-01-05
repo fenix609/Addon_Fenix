@@ -75,6 +75,14 @@
     </menu>
 	
 	<menu>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] Cumple Ainhoa 2009 [/COLOR][/B]</title>
+         <link>nolink</link>
+         <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
+         <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
+         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/Cumpleainhjoa2009.xml</externallink>
+    </menu>
+	
+	<menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] Pedraforca 2009 [/COLOR][/B]</title>
          <link>nolink</link>
          <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
@@ -82,8 +90,18 @@
          <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/pedraforca2009.xml</externallink>
     </menu>
 	
+	<menu>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] Navidad 2009 reyes 2010[/COLOR][/B]</title>
+         <link>nolink</link>
+         <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
+         <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
+         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/servidores/navidad09reyesd010.xml</externallink>
+    </menu>
 	
 </menu>
+
+
+
 
 
 
