@@ -13,14 +13,14 @@
          <title>[COLOR white]•[/COLOR][B][COLOR white] Sistrells temporada 2017/18[/COLOR][/B]</title>
          <thumbnail></thumbnail>
          <fanart></fanart>
-         <urlsolve>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/futbol/Sistrellstemporada201718.xml</urlsolve>
+         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/futbol/Sistrellstemporada201718.xml</externallink>
     </menu>
 
     <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] DOODSTREAM[/COLOR][/B]</title>
          <thumbnail></thumbnail>
          <fanart></fanart>
-         <urlsolve></urlsolve>
+         <externallink></externallink>
     </menu>
  
 </menu>
