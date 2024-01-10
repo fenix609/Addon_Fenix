@@ -6,21 +6,21 @@
          <title>[COLOR white]•[/COLOR][B][COLOR white] SISTRELLS 2-1 BADALONA[/COLOR][/B]</title>
          <thumbnail></thumbnail>
          <fanart></fanart>
-         <urlsolve>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/futbol/servidores/SISTRELLS21BADALONA.xml</urlsolve>
+         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/futbol/servidores/SISTRELLS21BADALONA.xml</externallink>
     </menu>
 
     <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] VIDOZA[/COLOR][/B]</title>
          <thumbnail></thumbnail>
          <fanart></fanart>
-         <urlsolve></urlsolve>
+         <externallink></externallink>
     </menu>
 
     <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] DOODSTREAM[/COLOR][/B]</title>
          <thumbnail></thumbnail>
          <fanart></fanart>
-         <urlsolve></urlsolve>
+         <externallink></externallink>
     </menu>
 
 </menu>
