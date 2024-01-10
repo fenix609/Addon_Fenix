@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menus>
+<menu>
   
     <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] SISTRELLS 2-1 BADALONA[/COLOR][/B]</title>
@@ -23,6 +23,5 @@
          <urlsolve></urlsolve>
     </menu>
 
+</menu>
 
- 
-</menus>
