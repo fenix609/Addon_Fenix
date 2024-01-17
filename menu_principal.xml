@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<items>
+<menus>
   
-<items_info>
+<menus_info>
 	<title>[COLOR red]Addon[/COLOR][COLOR yellow] Fenix[/COLOR][COLOR red]Tv[/COLOR]</title>
 	<genre>ALL</genre>
 	<description>Contenido variado en español</description>
 	<thumbnail></thumbnail>
 	<fanart></fanart>
 	<credits></credits>
-</items_info>
+</menus_info>
 
-<item>
+<menu>
 	<title>[B][COLOR white]RECETAS COCINA[/COLOR][/B]</title>
 	<link>nolink</link>
 	<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
 	<fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
 	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/cocina/Recetasmias.xml</externallink>
-</item>
+</menu>
 
- <item>
+ <menu>
 	<title>[B][COLOR white]PELICULAS / SERIES[/COLOR][/B]</title>
 	<link>nolink</link>
 	<thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
 	<fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
 	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/cocina/Recetasmias.xml</externallink>
-</item>
+</menu>
 
  
-<item>
+<menu>
 	<title>[B][COLOR white]LISTAS IPTV[/COLOR][/B]</title>
 	<link>nolink</link>
 	<thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
 	<fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
 	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/listas_iptv/lista_mundial.xml</externallink>
-</item>
+</menu>
 
-<item>
+<menu>
 	<title>[B][COLOR white]PHOTOCALL TV[/COLOR][/B]</title>
 	<thumbnail>https://i.postimg.cc/Dwg1DNYK/photocall.png</thumbnail>
 	<fanart>https://i.postimg.cc/V5yMC6q1/snWFe76.jpg</fanart>
 	<link>nolink</link>
 	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/canales%20tv/fhotocalltv.xml</externallink>
-</item>
+</menu>
 
-<item>
+<menu>
 	<title>[B][COLOR white]PLUTO TV[/COLOR][/B]</title>
 	<link>nolink</link>
 	<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
 	<fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
-	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/canales%20tv/plutotv_item.xml</externallink>
-</item>
+	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/canales%20tv/plutotv_menu.xml</externallink>
+</menu>
 
-<item>
+<menu>
 	<title>[B][COLOR white][/COLOR][/B]</title>
 	<link>nolink</link>
 	<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
 	<fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
 	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/adulto/adulto.xml</externallink>
-</item>
+</menu>
 
-<item>
+<menu>
 	<title>[B][COLOR white]JAVI[/COLOR][/B]</title>
 	<link>nolink</link>
 	<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
 	<fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
-	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/item_javi.xml</externallink>
-</item>
+	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/menu_javi.xml</externallink>
+</menu>
   
-<!-- <item>
+<!-- <menu>
 <title>[B][COLOR white]SAMSUNG TV PLUS[/COLOR][/B]</title>
 <link>nolink</link>
 <thumbnail>https://i.postimg.cc/DZphy31z/samsungtvplus.png</thumbnail>
 <fanart>https://i.postimg.cc/sXCzM4Nk/samsungtvplus.jpg</fanart>
 <externallink>https://bit.ly/SamsungTVPlusKS</externallink>
-</item> -->
+</menu> -->
   
-<!-- <item>
+<!-- <menu>
 <title>[B][COLOR white]TDTCHANNELS[/COLOR][/B]</title>
 <link>$doregex[groupname]</link>
 <regex>
@@ -128,17 +128,17 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>https://i.postimg.cc/xd9nkC7D/46137909-1.jpg</thumbnail>
 <fanart>https://i.postimg.cc/Jnrbj7xC/Spain-flag-1.jpg</fanart>
-</item> -->
+</menu> -->
   
-<!-- <item>
+<!-- <menu>
 <title>[B][COLOR white]RADIO[/COLOR][/B]</title>
 <link>nolink</link>
 <thumbnail>https://i.postimg.cc/L5p4mFcn/Radio.png</thumbnail>
 <fanart>https://s15.postimg.cc/jkastdbhn/fondoradios.jpg</fanart>
 <externallink>https://bit.ly/RADIO_MOD</externallink>
-</item> -->
+</menu> -->
   
-<!-- <item>
+<!-- <menu>
 <title>[B][COLOR white]¿Problemas con[/COLOR][COLOR red] Kodi[/COLOR][COLOR yellow]Spain[/COLOR][COLOR red]Tv[/COLOR][COLOR white] en K18 Leia?[/COLOR][COLOR lime]   Pincha aquí[/COLOR][/B]</title>
 <link>$doregex[get-decode]</link>
 <regex> 
@@ -153,10 +153,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
  parser = HTMLParser.HTMLParser()
  return re.sub("(&.+?;)", lambda m: parser.unescape(m.group()), page_data)
 ]]></expres>
-<page>https://bit.ly/mainitemks</page>
+<page>https://bit.ly/mainmenuks</page>
 </regex>
 <thumbnail>https://i.postimg.cc/PxbwZKFV/uDzZNhh.png</thumbnail>
 <fanart>https://i.postimg.cc/HLwxPn4V/uHz4BP7.jpg</fanart>
-</item> -->
+</menu> -->
 
-</items>
+</menus>

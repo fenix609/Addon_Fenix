@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<item>
+<menu>
   
-    <item>
+    <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] Mediafire[/COLOR][/B]</title>
          <thumbnail></thumbnail>
          <fanart></fanart>
          <urlsolve>https://www.mediafire.com/file/tpbc4p9zuurj4s7/Carrilleras_al_vino_tino.mp4</urlsolve>
-    </item>
+    </menu>
 	
-	<item>
+	<menu>
          <title>Carrileras al vino tinto - Recetas de cocina </title>        
          <urlsolve>https://www.youtube.com/watch?v=kNBmrarC6Do</urlsolve>
          <thumbnail></thumbnail>
          <fanart></fanart>
-    </item>
+    </menu>
 
 
- </item>
+ </menu>
 
