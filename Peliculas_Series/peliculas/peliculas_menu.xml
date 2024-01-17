@@ -27,6 +27,15 @@
 <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/mortadelo.xml</externallink>
 </menu>
 
+<menu>
+<title>[COLOR red]•[/COLOR][B][COLOR white]LUCKY LUKE(1991) Tenence Hill[/COLOR][/B]</title>
+<link>nolink</link>
+<thumbnail>nolink</thumbnail>
+<genre>western</genre>
+<description> Primera adaptación en imagen real del famoso personaje del cómic Lucky Luke, con Terence Hill en el papel protagonista.</description>
+<fanart>https://estaticos-cdn.prensaiberica.es/clip/7173c8b0-640a-4cfa-a833-f1f2e1ca05f6_alta-libre-aspect-ratio_default_0.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/mortadelo.xml</externallink>
+</menu>
 
 
 </menus>
