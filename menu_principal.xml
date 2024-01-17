@@ -69,14 +69,6 @@
 </menu>
   
 <menu>
-<title>[B][COLOR white]SAMSUNG TV PLUS[/COLOR][/B]</title>
-<link>nolink</link>
-<thumbnail>https://i.postimg.cc/DZphy31z/samsungtvplus.png</thumbnail>
-<fanart>https://i.postimg.cc/sXCzM4Nk/samsungtvplus.jpg</fanart>
-<externallink>https://bit.ly/SamsungTVPlusKS</externallink>
-</menu>
-  
-<menu>
 <title>[B][COLOR white]TDTCHANNELS[/COLOR][/B]</title>
 <link>$doregex[groupname]</link>
 <regex>
