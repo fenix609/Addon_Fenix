@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <menu>
+
+<menu>
 <title>[COLOR lime]**ESPECIAL UFC**[/COLOR] </title>
 <link>$doregex[makelist2]</link>
 
@@ -544,4 +546,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <urlsolve></urlsolve>
 <thumbnail></thumbnail>
 <fanart></fanart>
+</menu>
+
 </menu>
