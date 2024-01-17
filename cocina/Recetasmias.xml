@@ -11,15 +11,15 @@
 	
 	<menu>
          <title>Carrileras al vino tinto - Recetas de cocina </title>        
-         <urlsolve>https://www.youtube.com/watch?v=kNBmrarC6Do</urlsolve>
          <thumbnail>https://pilpileando.com/wp-content/uploads/2021/11/CARRILLERAS-AL-VINO-TINTO-muy-tiernas.jpg</thumbnail>
          <fanart>https://pilpileando.com/wp-content/uploads/2021/11/CARRILLERAS-AL-VINO-TINTO-muy-tiernas.jpg</fanart>
+		  <urlsolve>https://www.youtube.com/watch?v=kNBmrarC6Do</urlsolve>
     </menu>
    <menu>
          <title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] MMA Fighter 600lbs Sumo Vs 169lbs MMA UFC Fighter [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
-         <urlsolve>https://www.youtube.com/watch?v=8HSH44CAIA0</urlsolve>
          <thumbnail>http://i.imgur.com/QkWC62o.jpg</thumbnail>
          <fanart>http://i.imgur.com/QkWC62o.jpg</fanart>
+		 <urlsolve>https://www.youtube.com/watch?v=8HSH44CAIA0</urlsolve>
    </menu>
 
  </menu>
