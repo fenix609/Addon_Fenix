@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menus>
+<item>
   
-    <menu>
+    <item>
          <title>[COLOR white]•[/COLOR][B][COLOR white] Mediafire[/COLOR][/B]</title>
          <thumbnail></thumbnail>
          <fanart></fanart>
          <url>https://www.mediafire.com/file/tpbc4p9zuurj4s7/Carrilleras_al_vino_tino.mp4/file</url>
-    </menu>
+    </item>
 	
-	<menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Youtube[/COLOR][/B]</title>
+	<item>
+         <title>Pechugas de pollo rellenas de jamón y queso o Cordon Bleu - Recetas de cocina </title>        
+         <urlsolve>https://www.youtube.com/watch?v=pVJK6xuAIKQ</urlsolve>
          <thumbnail></thumbnail>
          <fanart></fanart>
-         <link>https://www.youtube.com/watch?v=kNBmrarC6Do</link>
-    </menu>
+    </item>
 
 
-</menus>
+ </item>
 
