@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Configuración">
+		<setting id="youtube_usar" type="enum" values="YouTube Oficial|Duff You" label="Plugin a usar con Videos YouTube" default="0"/>
+		<setting id="ver_web_despues" type="bool" label="Después de ver un Video, preguntar si desea abrir la Receta en la Web:" default="true" />
+	</category>
+</settings>

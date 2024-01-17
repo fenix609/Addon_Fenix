@@ -1,0 +1,10 @@
+-16-12-2021: CocinaAbierta v0.0.1
+-25-12-2021: v0.0.2 Se añade opción "Preguntar...." a los Ajustes.
+
+
+
+
+
+
+
+

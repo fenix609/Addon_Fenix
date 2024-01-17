@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.cocinaabierta" name="[COLOR goldenrod][B]CocinaAbierta de HogarManía[/B][/COLOR]" version="0.0.2" provider-name="Bad-Max para Kodi 18-19">
+  <requires>
+   <import addon="script.module.six" />
+   <import addon="script.module.requests"/> 
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Todo el contenido de CocinaAbierta</summary>
+    <description>[COLOR lightgreen]Las mejores Recetas de HogarManía en CocinaAbierta.[/COLOR][CR][CR]-Hay recetas con videos en YouTube, y para verlos habrá que tener el addon [COLOR red]YouTube[/COLOR] de [COLOR blue]Bromix[/COLOR] o el addon [COLOR red]Duff You[/COLOR] de [COLOR blue]La Taberna[/COLOR].[CR]-La mayoría de Videos, están en otros servidores (A3Media) que se reproducirán directamente desde este Addon.[CR]-Por último, en la web hay algunas recetas sin Video, las cuales si queremos ojearlas, necesitaremos tener el addon [COLOR orange]plugin.program.browser.launcher[/COLOR]   que pertenece a [COLOR blue]Sandmann79[/COLOR] (versión 2.0.0-Mod si deseas que funcione tanto en Windows como en Android), así como el Navegador Chrome.[CR]</description>
+	<disclaimer>Este es un software [COLOR red][B]gratuito[/B][/COLOR]... Que nadie te intente cobrar/pedir donación por él.</disclaimer>
+    <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
