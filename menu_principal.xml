@@ -68,15 +68,15 @@
 	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/menu_javi.xml</externallink>
 </menu>
   
-<!-- <menu>
+<menu>
 <title>[B][COLOR white]SAMSUNG TV PLUS[/COLOR][/B]</title>
 <link>nolink</link>
 <thumbnail>https://i.postimg.cc/DZphy31z/samsungtvplus.png</thumbnail>
 <fanart>https://i.postimg.cc/sXCzM4Nk/samsungtvplus.jpg</fanart>
 <externallink>https://bit.ly/SamsungTVPlusKS</externallink>
-</menu> -->
+</menu>
   
-<!-- <menu>
+<menu>
 <title>[B][COLOR white]TDTCHANNELS[/COLOR][/B]</title>
 <link>$doregex[groupname]</link>
 <regex>
@@ -128,35 +128,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>https://i.postimg.cc/xd9nkC7D/46137909-1.jpg</thumbnail>
 <fanart>https://i.postimg.cc/Jnrbj7xC/Spain-flag-1.jpg</fanart>
-</menu> -->
+</menu>
   
-<!-- <menu>
-<title>[B][COLOR white]RADIO[/COLOR][/B]</title>
-<link>nolink</link>
-<thumbnail>https://i.postimg.cc/L5p4mFcn/Radio.png</thumbnail>
-<fanart>https://s15.postimg.cc/jkastdbhn/fondoradios.jpg</fanart>
-<externallink>https://bit.ly/RADIO_MOD</externallink>
-</menu> -->
-  
-<!-- <menu>
-<title>[B][COLOR white]¿Problemas con[/COLOR][COLOR red] Kodi[/COLOR][COLOR yellow]Spain[/COLOR][COLOR red]Tv[/COLOR][COLOR white] en K18 Leia?[/COLOR][COLOR lime]   Pincha aquí[/COLOR][/B]</title>
-<link>$doregex[get-decode]</link>
-<regex> 
-<name>get-decode</name> 
-<expres><![CDATA[#$pyFunction
-import re
-import HTMLParser
-import sys
-reload(sys)
-sys.setdefaultencoding("utf-8")
-def GetLSProData(page_data,Cookie_Jar,m):
- parser = HTMLParser.HTMLParser()
- return re.sub("(&.+?;)", lambda m: parser.unescape(m.group()), page_data)
-]]></expres>
-<page>https://bit.ly/mainmenuks</page>
-</regex>
-<thumbnail>https://i.postimg.cc/PxbwZKFV/uDzZNhh.png</thumbnail>
-<fanart>https://i.postimg.cc/HLwxPn4V/uHz4BP7.jpg</fanart>
-</menu> -->
+
 
 </menus>
