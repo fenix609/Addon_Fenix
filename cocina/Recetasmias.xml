@@ -13,6 +13,7 @@
          <title>Carrileras al vino tinto - Recetas de cocina </title>        
          <thumbnail>https://pilpileando.com/wp-content/uploads/2021/11/CARRILLERAS-AL-VINO-TINTO-muy-tiernas.jpg</thumbnail>
          <fanart>https://pilpileando.com/wp-content/uploads/2021/11/CARRILLERAS-AL-VINO-TINTO-muy-tiernas.jpg</fanart>
+		 <jsonrpc>plugin://plugin.video.youtube/</jsonrpc>
 		  <urlsolve>https://www.youtube.com/watch?v=kNBmrarC6Do</urlsolve>
     </menu>
    <menu>
