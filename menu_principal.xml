@@ -3,61 +3,69 @@
 <menus>
   
 <menus_info>
-<title>[COLOR red]Addon[/COLOR][COLOR yellow] Fenix[/COLOR][COLOR red]Tv[/COLOR]</title>
-<genre>ALL</genre>
-<description>Contenido variado en español</description>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<credits></credits>
+	<title>[COLOR red]Addon[/COLOR][COLOR yellow] Fenix[/COLOR][COLOR red]Tv[/COLOR]</title>
+	<genre>ALL</genre>
+	<description>Contenido variado en español</description>
+	<thumbnail></thumbnail>
+	<fanart></fanart>
+	<credits></credits>
 </menus_info>
 
+<menu>
+	<title>[B][COLOR white]JAVI[/COLOR][/B]</title>
+	<link>nolink</link>
+	<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
+	<fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
+	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/menu_javi.xml</externallink>
+</menu>
+
  <menu>
-<title>[B][COLOR white]PELICULAS / SERIES[/COLOR][/B]</title>
-<link>nolink</link>
-<thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
-<fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas_series_menu.xml</externallink>
+	<title>[B][COLOR white]PELICULAS / SERIES[/COLOR][/B]</title>
+	<link>nolink</link>
+	<thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
+	<fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
+	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas_series_menu.xml</externallink>
 </menu>
 
  
 <menu>
-<title>[B][COLOR white]LISTAS IPTV[/COLOR][/B]</title>
-<link>nolink</link>
-<thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
-<fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/listas_iptv/lista_mundial.xml</externallink>
+	<title>[B][COLOR white]LISTAS IPTV[/COLOR][/B]</title>
+	<link>nolink</link>
+	<thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
+	<fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
+	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/listas_iptv/lista_mundial.xml</externallink>
 </menu>
 
 <menu>
-<title>[B][COLOR white]PHOTOCALL TV[/COLOR][/B]</title>
-<thumbnail>https://i.postimg.cc/Dwg1DNYK/photocall.png</thumbnail>
-<fanart>https://i.postimg.cc/V5yMC6q1/snWFe76.jpg</fanart>
-<link>nolink</link>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/canales%20tv/fhotocalltv.xml</externallink>
+	<title>[B][COLOR white]PHOTOCALL TV[/COLOR][/B]</title>
+	<thumbnail>https://i.postimg.cc/Dwg1DNYK/photocall.png</thumbnail>
+	<fanart>https://i.postimg.cc/V5yMC6q1/snWFe76.jpg</fanart>
+	<link>nolink</link>
+	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/canales%20tv/fhotocalltv.xml</externallink>
 </menu>
 
 <menu>
-<title>[B][COLOR white]PLUTO TV[/COLOR][/B]</title>
-<link>nolink</link>
-<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
-<fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/canales%20tv/plutotv_menu.xml</externallink>
+	<title>[B][COLOR white]PLUTO TV[/COLOR][/B]</title>
+	<link>nolink</link>
+	<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
+	<fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
+	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/canales%20tv/plutotv_menu.xml</externallink>
 </menu>
 
 <menu>
-<title>[B][COLOR white][/COLOR][/B]</title>
-<link>nolink</link>
-<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
-<fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/adulto/adulto.xml</externallink>
+	<title>[B][COLOR white][/COLOR][/B]</title>
+	<link>nolink</link>
+	<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
+	<fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
+	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/adulto/adulto.xml</externallink>
 </menu>
 
 <menu>
-<title>[B][COLOR white]JAVI[/COLOR][/B]</title>
-<link>nolink</link>
-<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
-<fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/menu_javi.xml</externallink>
+	<title>[B][COLOR white]JAVI[/COLOR][/B]</title>
+	<link>nolink</link>
+	<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
+	<fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
+	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/menu_javi.xml</externallink>
 </menu>
   
 <!-- <menu>
