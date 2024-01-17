@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<item>
+<title>[B][COLOR fuchsia]BAILEACTIVO[/COLOR][/B]</title>   
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[  
+<title>[COLOR white]* [COLOR white][makelist.param3][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/5ECG9xJ.jpg</fanart>
+]]></listrepeat>
+<expres>(?s)":\[{"url":"(https://i.ytimg.com/vi/(.*?)/hqdefault.jpg).*?label":"(.*?)\-.*?</expres>
+<page>https://www.youtube.com/channel/UCL9N1p_OLwSlwUrbhiXTk3Q</page>
+</regex>  
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import re,urlresolver
+def GetLSProData(page_data,Cookie_Jar,m):
+  return urlresolver.resolve('https://youtu.be/[makelist.param2]')
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/5ECG9xJ.jpg</thumbnail>
+<fanart>https://i.imgur.com/5ECG9xJ.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR aqua]BALLET FIT[/COLOR][/B]</title>   
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[  
+<title>[COLOR white]* [COLOR white][makelist.param3][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/btDb1qo.jpg</fanart>
+]]></listrepeat>
+<expres>(?s)":\[{"url":"(https://i.ytimg.com/vi/(.*?)/hqdefault.jpg).*?label":"(.*?)\-.*?</expres>
+<page>https://www.youtube.com/channel/UCJCihoV26JG3XMOFt-Bk5EA</page>
+</regex>  
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import re,urlresolver
+def GetLSProData(page_data,Cookie_Jar,m):
+  return urlresolver.resolve('https://youtu.be/[makelist.param2]')
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/btDb1qo.jpg</thumbnail>
+<fanart>https://i.imgur.com/btDb1qo.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR lime]ZUMBA[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/B1mmqrP.png</thumbnail>
+<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/Zumba%20Variado.xml</externallink>
+</item>
+
+
+
+<item>
+<title>[B][COLOR plum]KPOK FITNESS[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[COLOR gold]+[/COLOR][COLOR white][makelist.param1][/COLOR]</title>
+  <link>$doregex[jd]</link>
+  <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ <fanart>https://i.imgur.com/rx2brnF.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re,urllib
+def GetLSProData(page_data,Cookie_Jar,m):
+  source=urllib.urlopen('https://www.youtube.com/playlist?list=PLkzQ_gL7fD9TLOY_OhyvqkBmW-o7c2In3').read().replace('amp;','').replace('#038;','').replace('&#39;','\'').replace('&quot;','"')
+  vID=re.findall('"playlistVideoRenderer".*?Id":"([^"]+)',source)
+  title=re.findall('"title":.*?text":"([^"]+)',source)
+  return zip(title,vID)
+]]></expres>
+<page></page>
+</regex>  
+<regex>
+<name>jd</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import resolveurl
+   url = 'https://youtu.be/[makelist.param2]'
+   u = resolveurl.resolve(url)
+   return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/rx2brnF.jpg</thumbnail>
+<fanart>https://i.imgur.com/rx2brnF.jpg</fanart>
+</item>
+
+
+
+
+
+

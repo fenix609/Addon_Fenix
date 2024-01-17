@@ -1,0 +1,74 @@
+<item>
+<title>DAILY IPTV M3U 2</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR cyan]Server:[/COLOR] [makelist.param2]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres>(http://(.*)/.*)</expres>
+<page>http://pastebin.com/raw/5tBNEXZ1</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+ 
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+    <title>[COLOR red][B]DIABLO[/B][/COLOR][COLOR green][B]5.0[/B][/COLOR]  [makelist2.param1]</title>
+	<thumbnail></thumbnail>
+<fanart></fanart>
+    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][makelist2.param1][/COLOR]</title></link>
+    <thumbnail></thumbnail>
+        <fanart></fanart>
+]]></listrepeat>
+<expres>#EXTINF:-1,(.*?)\n(.*)</expres>
+<page>[makelist.param1]</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+
+</item>
+
+
+
+
+<item>
+<title>M3U LIST</title>
+<link>$doregex[makelist2]</link>
+<fanart></fanart>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red][B]DIABLO[/B][/COLOR][COLOR green][B]5.0[/B][/COLOR] [makelist2.param1]</title>
+ <link>$doregex[makelist]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+ ]]></listrepeat>
+<expres>Server:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
+<page>https://dl.dropbox.com/s/8gd67jk61jxi0d2/servers.txt</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red][B]DIABLO[/B][/COLOR][COLOR green][B]5.0[/B][/COLOR] [COLOR darkcyan][makelist.param1][/COLOR]</title>
+ <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR blue]RS[/COLOR]IPTV[makelist.param1]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+ ]]></listrepeat>
+<expres>#EXTINF:-1,[makelist2.param3](.*?)\n(.*)</expres>
+<page>[makelist2.param2]</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<info>JHGMASTER LISTAS IPTV</info>
+</item>

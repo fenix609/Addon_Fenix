@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] BIENVENIDOS A LIVE MUSIC [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+
+ <item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ALEJANDRO SANZ  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>https://static.fnac-static.com/multimedia/Images/ES/NR/47/db/11/1170247/1507-1/tsp20151118124225/Sirope-vivo-DVD.jpg</thumbnail>
+    <fanart>https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201505/21/00105110280004____1__600x600.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=LfQrm1S4K-I&amp;list=PL1BD9F45E23B4925D</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://static.fnac-static.com/multimedia/Images/ES/NR/47/db/11/1170247/1507-1/tsp20151118124225/Sirope-vivo-DVD.jpg</thumbnail>
+    <fanart>https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201505/21/00105110280004____1__600x600.jpg</fanart>
+</item>
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ANTONIO OROZCO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>http://zetaestaticos.com/leon/img/noticias/0/086/86998_1.jpg</thumbnail>
+    <fanart>http://imag.elepe.com/t11/dos_orillas_la_nueva_version_de_antonio_orozco_11240.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://zetaestaticos.com/leon/img/noticias/0/086/86998_1.jpg</thumbnail>
+    <fanart>http://imag.elepe.com/t11/dos_orillas_la_nueva_version_de_antonio_orozco_11240.jpg</fanart>
+</item> 
+
+ <item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Carlos Baute  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=h9Ox-zD6nzw&amp;list=PLkzQ_gL7fD9SEsmDHbG9R6a0bpoNbrQx1</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://www.funtime.com.ar/landing/baute/img/carlos-baute.png</thumbnail>
+    <fanart>http://s03.s3c.es/imag/_v0/770x420/c/f/6/carlos-baute-confesiones770.jpg</fanart>
+</item>
+
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] CAMARON DE LA ISLA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=A93m5DIbLw8&amp;list=PLuS01ZdIZd4eWmMs8Q51oV7094Wx72jSb</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://ep01.epimg.net/diario/imagenes/2010/11/24/madrid/1290601469_850215_0000000000_sumario_normal.jpg</thumbnail>
+    <fanart>https://ep01.epimg.net/diario/imagenes/2010/11/24/madrid/1290601469_850215_0000000000_sumario_normal.jpg</fanart>
+</item>
+ 
+
+ <item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Chayanne  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=VkuRIZ7QyDM&amp;list=PLkzQ_gL7fD9SkrmJ9prr7ueq622dwakxC</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://pasioninspiracion.files.wordpress.com/2012/03/chayannevevo.png?w=265</thumbnail>
+    <fanart>http://2017.quepasa.com.ve/site/wp-content/uploads/2017/09/chayanne-wisin.jpg.imgo_.jpg</fanart>
+</item>
+
+ <item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Camela [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=9xIrBPcIeMA&amp;list=PLkzQ_gL7fD9QpD9aOF1Fq-sTavR_v5mvJ</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://www.taquilla.com/data/images/t/33/camela.png</thumbnail>
+    <fanart>https://i.ytimg.com/vi/uakBV9r5W6I/maxresdefault.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Cristian Castro  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=9EwFfh18Svo&amp;list=PLkzQ_gL7fD9SquoLXEEIBPKnRKLpEMsBf</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://www.acontecermundial.com/imagenes/arte-y-espectaculos/cristian-castro-pillado-con-un-travesti.png</thumbnail>
+    <fanart>http://www.sinembargo.mx/wp-content/uploads/2013/08/27.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] DAVID BISBAL [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>http://www.davidbisbalweb.com/images/corazonlatino2.jpg</thumbnail>
+    <fanart>https://www.dicelacancion.com/revista/wp-content/uploads/2014/02/T%C3%BA-y-Yo-David-Bisbal.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=AS5DOyyoXJI&amp;list=PL08E81BF8023C4996</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://www.davidbisbalweb.com/images/corazonlatino2.jpg</thumbnail>
+    <fanart>https://www.dicelacancion.com/revista/wp-content/uploads/2014/02/T%C3%BA-y-Yo-David-Bisbal.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] DEMARCO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=Spz03zZcQMA&amp;list=PLeaj06dBGhfA2hrAqGeBV58de6qn1aSg9</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://i.ytimg.com/vi/Sh4oS_q_diU/hqdefault.jpg</thumbnail>
+    <fanart>https://i.ytimg.com/vi/Sh4oS_q_diU/hqdefault.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL BARRIO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail>http://img177.imagevenue.com/loc442/th_837298462_El_Barrio_La_Voz_De_Mi_Silencio_Frontal_122_442lo.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-hpxkPdvV1KI/UacIa_Ee9CI/AAAAAAAAEIU/ckKymZRE5OA/s1600/Discografia+el+barrio.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/elbarrio.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL ARREBATO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail>http://www.lahiguera.net/musicalia/artistas/el_arrebato/fotos/6051/el_arrebato.jpg</thumbnail>
+<fanart>http://ocio.laopiniondezamora.es/img_contenido/noticias/2012/03/62402/75110156.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/ARREBATO.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL CANTO DEL LOCO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail>https://elaguijonmusical.files.wordpress.com/2011/02/danimartin21.jpg?w=240</thumbnail>
+<fanart>https://aprenderespanolenmadrid.files.wordpress.com/2017/02/dani-martin-06.jpg?w=500&h=248</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/cantodeloco.xml</externallink>
+</item>
+
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL ULTIMO DE LA FILA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=QyULv7wQr3A&amp;list=PPLXLXo07HMXlj6swhszmAX54CNYWRONg76</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://www.efeeme.com/wp-content/uploads/2008/12/cabecera-ultimo-de-la-fila-15-12-08.jpg</thumbnail>
+    <fanart>http://www.efeeme.com/wp-content/uploads/2008/12/cabecera-ultimo-de-la-fila-15-12-08.jpg</fanart>
+</item>
+ 
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Eros ramazzotti  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=CKYOTVJatxk&anp;list=PLkzQ_gL7fD9TKdUOT07_maQmEmavZGoMU</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://cdn.vivepop.com/artists/e/eros-ramazzotti/eros-ramazzotti-5.jpg</thumbnail>
+    <fanart>https://la100.cienradios.com/wp-content/uploads/sites/4/2015/03/Eros-Ramazzotti-003.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ESTOPA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail>http://www.publispain.com/estopa/imagenes/estopa_-_voces_de_ultrarumba.jpg</thumbnail>
+<fanart>http://www.lahiguera.net/musicalia/artistas/estopa/disco/5862/estopa_esto_es_estopa-portada.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/test1.xml</externallink>
+</item>
+
+
+ 
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EXTREMO DURO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=9Iou2gjCGnI&amp;list=RDEMsZKLyvIl47Qqg4i9mCaPbw</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://www.rockmusic.org/extremoduro/ext1.jpg</thumbnail>
+    <fanart>http://www.rockmusic.org/extremoduro/ext1.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] HOMBRES G [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail>https://is1-ssl.mzstatic.com/image/thumb/Music/v4/59/fb/8b/59fb8bea-effd-e775-30f9-3c384ab85709/8429006727650.jpg/200x0w.jpg</thumbnail>
+<fanart>http://revistakuadro.com/wp-content/uploads/2015/06/maxresdefault1.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/HOMBRESG.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] India Martinez [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=bcj6u041mDA&amp;list=PLkzQ_gL7fD9Q-EXvtwGqCpWdyiEwIC4ta</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://lastfm-img2.akamaized.net/i/u/174s/6a7bc825efc34b01861cfad6261ccfae.png</thumbnail>
+    <fanart>https://www.esmadrid.com/sites/default/files/styles/content_type_full/public/agenda/musica/700_indiamartinez_0_0.jpg?itok=xVhjjN3D</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Luis Miguel  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=5BuE0_lVOAs&amp;list=PLkzQ_gL7fD9RBh_YflaC4T3SNRUwTaKIm</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://eventospalermo.com.ar/media/k2/galleries/399/Luis+Miguel+LuisMiguelPNG.png</thumbnail>
+    <fanart>http://s1.dmcdn.net/ACtKZ/1280x720-5ni.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Laura Pausini  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=n1mDNXEKWw4&amp;list=PLkzQ_gL7fD9RlbWyFWupo68v5CRp1fpju</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://d243u7pon29hni.cloudfront.net/imagesOnDemand/get?imagePath=/images/products/laura-pausini-exitos_l.png&width=1200&height=900&quality=65&imgType=product</thumbnail>
+    <fanart>https://i.pinimg.com/736x/0a/d7/f8/0ad7f8d5a89b4a968f8415078d34fd4f--pin-image-latin-music.jpg</fanart>
+</item>
+
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] LA FUGA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=hdQ99wLYc2g&amp;list=RDEM6-OHwmF9YwRsh1izusAjWw</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://i.ytimg.com/vi/GjZ--hpVxSg/hqdefault.jpg</thumbnail>
+    <fanart>https://i.ytimg.com/vi/GjZ--hpVxSg/hqdefault.jpg</fanart>
+</item>
+
+  
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MALU[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail>https://www.buenamusica.com/media/fotos/discos/m/malu/malu_guerra-fria.jpg</thumbnail>
+<fanart>http://porvalencia.com/wp-content/uploads/2012/11/Malu-Firma-Disco-Valencia.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/MALU.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MANUEL CARRASCO  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail>https://assets.metrolatam.com/mx/2016/06/13/captura-de-pantalla-2016-06-11-a-las-00-54-52-200x300.jpg</thumbnail>
+<fanart>http://sevilla.abc.es/media/cultura/2015/12/23/s/carrasco-concierto--620x349.JPG</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/MANUCARRASCO.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MAGO DE OZ [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail>http://www.elladooscurodelaluna.com/wp-content/uploads/2012/06/fernando-mainer-elladooscurodelaluna.jpg</thumbnail>
+<fanart>http://www.efeeme.com/wp-content/uploads/Mago-Oz-25-01-10.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/magodeoz.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Mecano  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=csW6VdUr8G8&amplist=PLkzQ_gL7fD9TM_BfUrKDPFTj-_kd8hgE6</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://1.bp.blogspot.com/-Tb0GXiy558k/V7Wta5VRG7I/AAAAAAAABUg/3wK-YqtE4zE0mgT5AYtWeodbytgqnTvZACLcB/s1600/Mecano.png</thumbnail>
+    <fanart>https://ep01.epimg.net/especiales/2016/mecano/images/discos/entre-el-cielo-y-el-suelo/mecano.jpg</fanart>
+</item>
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MEDINA AZAHARA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail>https://www.fotoconciertos.com/wp-content/uploads/2014/08/MEDINA-AZAHARA-1-200x300.jpg</thumbnail>
+<fanart>http://images.coveralia.com/audio/m/Medina_Azahara-A_Toda_Esa_Gente-Frontal.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/MEDINAAZAHARA.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MELENDI [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=D9W4DLjmoOM&amp;list=RDEMYbNZqwNXrAO7XOZETj51Fg</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://cdn.smehost.net/melendioficialcom-controlmestudiodevel/wp-content/uploads/2014/02/quitate_las_gafas.jpg</thumbnail>
+    <fanart>https://cdn.smehost.net/melendioficialcom-controlmestudiodevel/wp-content/uploads/2014/02/quitate_las_gafas.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] METALLICA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=tAGnKpE4NCI&amp;list=PLXIdhrTXbAT2e5YIvo55jcQtNjgdFHYe_</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://loudwire.com/files/2011/12/Metallica.jpg</thumbnail>
+    <fanart>http://loudwire.com/files/2011/12/Metallica.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Monica Naranjo  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=tQmgMVgEUic&amp;list=PLkzQ_gL7fD9RCOe_WqXG0mHJ54cOM4Xsx</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://orig00.deviantart.net/4522/f/2016/027/3/d/monica_naranjo___lubna__el_mar_esconde_un_secreto_by_efrayn-d7dgga8.png</thumbnail>
+    <fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Monica_Naranjo_Merida.jpg/1200px-Monica_Naranjo_Merida.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Pablo Alboran [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=RBinWi3NiT4&amp;list=PLkzQ_gL7fD9RmRXXghqI_hoNaW5cDzHf4</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://gruporivas.com.mx/wp-content/uploads/2015/11/pablo-alboran-tanto.jpg</thumbnail>
+    <fanart>http://www.publispain.com/pablo-alboran/imagenes/n_foto-pablo-alboran-42.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Romeo Santos  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=mhHqonzsuoA&amp;list=PLkzQ_gL7fD9QlxwDxDooUiyfXwpECIBJr</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://1.bp.blogspot.com/-N1MgZfj_yEc/TsGiHkwO-jI/AAAAAAAAGbw/tHQM07XGECQ/s1600/Romeo+Santos_2011-11-15_romeo_santos_formula_vol_1.png</thumbnail>
+    <fanart>http://www.telemundo.com/sites/nbcutelemundo/files/styles/article_cover_image/public/images/promo/article/2014/12/05/romeo-santo.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Sergio Dalma  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=FkuZpN2jJys&amp;list=PLkzQ_gL7fD9TdOS0XWD8uFwEAgFi1-Vvn</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://www.sevillamagazine.es/wp-content/uploads/2014/04/sergiodalma_.png</thumbnail>
+    <fanart>https://www.canarias7.es/binrepository/640x364/0c0/0d0/none/11314/VVKM/356942-1g_CSN356942_MG1487624.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Shakira [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=sPTn0QEhxds&amp;list=RDEM4s6ouTwHMSllkl-X-LBTQQ</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://www.elbernabeu.com/media/elbernabeu/images/2017/10/19/2017101916091181905.jpg</thumbnail>
+    <fanart>http://www.elbernabeu.com/media/elbernabeu/images/2017/10/19/2017101916091181905.jpg</fanart>
+</item>
+ 
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Whitesnake  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=GOJk0HW_hJw&amp;list=PLkzQ_gL7fD9TIiVdesNv4E0wTJ9iuclmX</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://www.banquetrecords.com/thumb.png?SNAKEBOX2</thumbnail>
+    <fanart>https://myglobalmind.com/wp-content/uploads/2016/02/unnamed-11.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] VANESSA MARTIN [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=LRmi22bsRHQ&amp;list=RDEMnkBjlDyHwSNPRDA4ThF5_Q</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://clcdn02.mundotkm.com/2015/11/vanessa-martin-entrevista-mundotkm.jpg</thumbnail>
+    <fanart>http://clcdn02.mundotkm.com/2015/11/vanessa-martin-entrevista-mundotkm.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
+</item>
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+-------------------------------------------------------
+
+
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] NIRVANA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=hTWKbfoikeg&amp;list=RDEMDz952MrmDXLULMlo7SEXUw</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://i.pinimg.com/originals/05/0c/9f/050c9fcaaf65a937bf757ffecb3ebb1a.jpg</thumbnail>
+    <fanart>https://i.pinimg.com/originals/05/0c/9f/050c9fcaaf65a937bf757ffecb3ebb1a.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MANOLO GARCIA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=9zdEXRKJSNY&amp;list=RDEMQED184ycZXih9jflo79KLA</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://www.abc.es/media/cultura/2017/09/27/manolo-garcia-k1KE--620x349@abc.jpg</thumbnail>
+    <fanart>http://www.abc.es/media/cultura/2017/09/27/manolo-garcia-k1KE--620x349@abc.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
+</item>
+
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
+</item>
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+ 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
