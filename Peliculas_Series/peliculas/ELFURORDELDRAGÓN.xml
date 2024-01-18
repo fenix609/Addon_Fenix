@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menu>
+<menus>
   
     <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] STREAMTAPE[/COLOR][/B]</title>
+         <title>[COLOR white]•[/COLOR][B][COLOR white]  STREAMTAPE[/COLOR][/B]</title>
          <thumbnail></thumbnail>
          <fanart></fanart>
-         <urlsolve>https://streamtape.com/v/pdRRmd1K1qsrYQD/ELFURORDELDRAG%C3%93N%281972%29.mp4</urlsolve>
+         <urlsolve>https://streamtape.com/v/ZJdo2mGyk8TqJbr/LUCKY_LUKE_%281991%29_HD.mp4</urlsolve>
     </menu>
 
     <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] GAMOVIDEO[/COLOR][/B]</title>
          <thumbnail></thumbnail>
          <fanart></fanart>
-         <urlsolve>http://gamovideo.com/j7b70v1g0045</urlsolve>
+         <urlsolve>http://gamovideo.com/re3csmg393uy</urlsolve>
     </menu>
 
-</menu>
+</menus>
+
