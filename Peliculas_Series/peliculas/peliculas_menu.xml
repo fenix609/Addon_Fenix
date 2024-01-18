@@ -48,6 +48,16 @@
 		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/ELFURORDELDRAG%C3%93N.xml</externallink>
 	</menu> -->
 	
+	<menu>
+		<title>[COLOR red]•[/COLOR][B][COLOR white] FURIA ORIENTAL (1972)/COLOR][/B]</title>
+		<link>nolink</link>
+		<thumbnail>nolink</thumbnail>
+		<genre>Artes marciales</genre>
+		<description>En el Shangai de 1908, Chen Jeh (Bruce Lee) es un estudiante de artes marciales que, al regresar a su escuela, descubre que su maestro ha fallecido. Tras la insultante visita durante el funeral de los representantes de una escuela japonesa de artes marciales, en la cual les llaman “Enfermos de Asia”, Chen acude a darles una humillante lección y hacerles tragar sus palabras. Sintiéndose el hazmerreir de todos, los japoneses desatan una espiral de violencia contra los chinos durante la cual se descubre que en realidad su maestro murió envenenado.</description>
+		<fanart></fanart>
+		<externallink>h</externallink>
+	</menu>
+	
 	<!-- <menu>
 		<title>[COLOR red]•[/COLOR][B][COLOR white] KARATE A MUERTE EN BANGKOK (1973)[/COLOR][/B]</title>
 		<link>nolink</link>
@@ -78,7 +88,17 @@
 		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/LALEYENDADEBRUCELEE(1984).xml</externallink>
 	</menu> -->
 	
-	<menu>
+	<!-- <menu>
+		<title>[COLOR red]•[/COLOR][B][COLOR white] OPERACIÓN DRAGÓN (1973)[/COLOR][/B]</title>
+		<link>nolink</link>
+		<thumbnail>nolink</thumbnail>
+		<genre>Artes marciales</genre>
+		<description>Hong Kong, años 70. El joven Lee es un miembro del templo Shaolin y experto de las artes marciales que es reclutado por los servicios de inteligencia británicos para infiltrarse en una operación de drogas, durante un torneo de combates promovido por el jefe de la mafia.</description>
+		<fanart>https://via-news.es/wp-content/uploads/2021/09/operaciondragon_destacada.jpg</fanart>
+		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/OPERACI%C3%93NDRAG%C3%93N(1973).xml</externallink>
+	</menu> -->
+	
+	<!-- <menu>
 		<title>[COLOR red]•[/COLOR][B][COLOR white] DRAGÓN. LA VIDA DE BRUCE LEE (1993)[/COLOR][/B]</title>
 		<link>nolink</link>
 		<thumbnail>nolink</thumbnail>
@@ -86,7 +106,7 @@
 		<description>Biopic sobre Bruce Lee, el rey de las artes marciales, muerto a los 33 años en extrañas circunstancias días antes del estreno de su película más famosa: Operación Dragón. Desde sus inicios como instructor de karate, su aparición en pequeñas series televisivas (la famosa Kung Fu fue una idea original suya), hasta su ascenso a la fama cinematográfica cerca ya del fin de sus días.</description>
 		<fanart>https://static.abc.es/media/peliculas/000/011/368/dragon-la-vida-de-bruce-lee-2.jpg</fanart>
 		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/DRAG%C3%93NLAVIDADEBRUCELEE(1993).xml</externallink>
-	</menu>
+	</menu> -->
 	
 	<menu>
 		<title>[COLOR red]•[/COLOR][B][COLOR white] EL BUENO, EL FEO Y EL MALO[/COLOR][/B]</title>
@@ -98,15 +118,7 @@
 		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/ELBUENOELFEOYELMALO.xml</externallink>
 	</menu>
 	
-	<menu>
-		<title>[COLOR red]•[/COLOR][B][COLOR white]       [/COLOR][/B]</title>
-		<link>nolink</link>
-		<thumbnail>nolink</thumbnail>
-		<genre>Artes marciales</genre>
-		<description></description>
-		<fanart></fanart>
-		<externallink>h</externallink>
-	</menu>
+	
 	
 	<menu>
 		<title>[COLOR red]•[/COLOR][B][COLOR white]       [/COLOR][/B]</title>
