@@ -3,17 +3,18 @@
 <menus>
   
     <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] STREAMTAPE[/COLOR][/B]</title>
+         <title>[COLOR white]•[/COLOR][B][COLOR white]  STREAMTAPE[/COLOR][/B]</title>
          <thumbnail></thumbnail>
          <fanart></fanart>
-         <urlsolve></urlsolve>
+         <urlsolve>https://streamtape.com/v/ayYK8BxB7YCxV0X/OPERACI%C3%93NDRAG%C3%93N%281973%29.mp4</urlsolve>
     </menu>
 
     <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] GAMOVIDEO[/COLOR][/B]</title>
          <thumbnail></thumbnail>
          <fanart></fanart>
-         <urlsolve></urlsolve>
+         <urlsolve>http://gamovideo.com/a9jtt3ofpvvq</urlsolve>
     </menu>
 
 </menus>
+
