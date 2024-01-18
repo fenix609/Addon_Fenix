@@ -38,16 +38,6 @@
 	</menu>
 
 	<menu>
-		<title>[COLOR red]•[/COLOR][B][COLOR white] DRAGÓN. LA VIDA DE BRUCE LEE (1993)[/COLOR][/B]</title>
-		<link>nolink</link>
-		<thumbnail>nolink</thumbnail>
-		<genre>western</genre>
-		<description></description>
-		<fanart>https://estaticos-cdn.prensaiberica.es/clip/7173c8b0-640a-4cfa-a833-f1f2e1ca05f6_alta-libre-aspect-ratio_default_0.jpg</fanart>
-		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/DRAGÓNLAVIDADEBRUCELEE(1993).xml</externallink>
-	</menu>
-	
-	<menu>
 		<title>[COLOR red]•[/COLOR][B][COLOR white] EL FUROR DEL DRAGÓN (1972)[/COLOR][/B]</title>
 		<link>nolink</link>
 		<thumbnail>nolink</thumbnail>
@@ -65,6 +55,16 @@
 		<description> </description>
 		<fanart>https://estaticos-cdn.prensaiberica.es/clip/7173c8b0-640a-4cfa-a833-f1f2e1ca05f6_alta-libre-aspect-ratio_default_0.jpg</fanart>
 		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/KARATEAMUERTEENBANGKOK.xml</externallink>
+	</menu>
+	
+	<menu>
+		<title>[COLOR red]•[/COLOR][B][COLOR white] DRAGÓN. LA VIDA DE BRUCE LEE (1993)[/COLOR][/B]</title>
+		<link>nolink</link>
+		<thumbnail>nolink</thumbnail>
+		<genre>western</genre>
+		<description></description>
+		<fanart>https://estaticos-cdn.prensaiberica.es/clip/7173c8b0-640a-4cfa-a833-f1f2e1ca05f6_alta-libre-aspect-ratio_default_0.jpg</fanart>
+		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/DRAGÓNLAVIDADEBRUCELEE(1993).xml</externallink>
 	</menu>
 	
 	<menu>
