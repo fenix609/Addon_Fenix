@@ -130,6 +130,36 @@
 	</menu>
 	
 	<menu>
+		<title>[COLOR red]•[/COLOR][B][COLOR white] Su juego favorito (1964)[/COLOR][/B]</title>
+		<link>nolink</link>
+		<thumbnail>nolink</thumbnail>
+		<genre>comedia</genre>
+		<description></description>
+		<fanart>https://image.tmdb.org/t/p/original/lhsP86Dup2Y7sjbmSdJi6gEksjv.jpg</fanart>
+		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/sujuegofavorito.xml</externallink>
+	</menu>
+	
+	<menu>
+		<title>[COLOR red]•[/COLOR][B][COLOR white]       [/COLOR][/B]</title>
+		<link>nolink</link>
+		<thumbnail>nolink</thumbnail>
+		<genre>Artes marciales</genre>
+		<description></description>
+		<fanart></fanart>
+		<externallink></externallink>
+	</menu>
+	
+	<menu>
+		<title>[COLOR red]•[/COLOR][B][COLOR white]       [/COLOR][/B]</title>
+		<link>nolink</link>
+		<thumbnail>nolink</thumbnail>
+		<genre>Artes marciales</genre>
+		<description></description>
+		<fanart></fanart>
+		<externallink></externallink>
+	</menu>
+	
+	<menu>
 		<title>[COLOR red]•[/COLOR][B][COLOR white]       [/COLOR][/B]</title>
 		<link>nolink</link>
 		<thumbnail>nolink</thumbnail>
