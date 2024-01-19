@@ -143,7 +143,7 @@
 		<title>[COLOR red]•[/COLOR][B][COLOR white] QUE BAJE DIOS Y LO VEA (2018)      [/COLOR][/B]</title>
 		<link>nolink</link>
 		<thumbnail>nolink</thumbnail>
-		<genre>Comedia</genre>
+		<genre>Deporte</genre>
 		<description></description>
 		<fanart>https://secindi.com/wp-content/uploads/2019/04/que-baje-dios-vea_0.jpg</fanart>
 		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/QUE%20BAJE%20DIOS%20Y%20LO%20VEA.xml</externallink>
@@ -170,13 +170,13 @@
 	</menu>
 	
 	<menu>
-		<title>[COLOR red]•[/COLOR][B][COLOR white]       [/COLOR][/B]</title>
+		<title>[COLOR red]•[/COLOR][B][COLOR white] EL PENALTI MAS LARGO DEL MUNDO (2005)[/COLOR][/B]</title>
 		<link>nolink</link>
 		<thumbnail>nolink</thumbnail>
-		<genre>Artes marciales</genre>
+		<genre>Deporte</genre>
 		<description></description>
-		<fanart></fanart>
-		<externallink></externallink>
+		<fanart>https://static.abc.es/media/peliculas/000/020/941/el-penalti-mas-largo-del-mundo-2.jpg</fanart>
+		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/EL%20PENALTI%20MAS%20LARGO%20DEL%20MUNDO%20(2005).xml</externallink>
 	</menu>
 
 	<menu>
