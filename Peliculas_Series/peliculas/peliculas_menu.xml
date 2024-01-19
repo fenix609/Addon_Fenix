@@ -133,7 +133,7 @@
 		<title>[COLOR red]•[/COLOR][B][COLOR white] SU JUEGO FAVORITO (1964)[/COLOR][/B]</title>
 		<link>nolink</link>
 		<thumbnail>nolink</thumbnail>
-		<genre>comedia</genre>
+		<genre>Comedia</genre>
 		<description></description>
 		<fanart>https://image.tmdb.org/t/p/original/lhsP86Dup2Y7sjbmSdJi6gEksjv.jpg</fanart>
 		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/sujuegofavorito.xml</externallink>
@@ -143,7 +143,7 @@
 		<title>[COLOR red]•[/COLOR][B][COLOR white] QUE BAJE DIOS Y LO VEA (2018)      [/COLOR][/B]</title>
 		<link>nolink</link>
 		<thumbnail>nolink</thumbnail>
-		<genre>Artes marciales</genre>
+		<genre>Comedia</genre>
 		<description></description>
 		<fanart>https://secindi.com/wp-content/uploads/2019/04/que-baje-dios-vea_0.jpg</fanart>
 		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/QUE%20BAJE%20DIOS%20Y%20LO%20VEA.xml</externallink>
@@ -153,20 +153,20 @@
 		<title>[COLOR red]•[/COLOR][B][COLOR white] LA VENGANZA DE IRA VAMP[/COLOR][/B]</title>
 		<link>nolink</link>
 		<thumbnail>nolink</thumbnail>
-		<genre>Artes marciales</genre>
+		<genre>Humor</genre>
 		<description></description>
 		<fanart>https://metadata-static.plex.tv/f/gracenote/f87447efb50912bd2b421a261efb1b9b.jpg</fanart>
 		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/LA%20VENGANZA%20DE%20IRA%20VAMP.xml</externallink>
 	</menu>
 	
 	<menu>
-		<title>[COLOR red]•[/COLOR][B][COLOR white]       [/COLOR][/B]</title>
+		<title>[COLOR red]•[/COLOR][B][COLOR white] EL SILENCIO DE LA CIUDAD BLANCA (2019)[/COLOR][/B]</title>
 		<link>nolink</link>
 		<thumbnail>nolink</thumbnail>
-		<genre>Artes marciales</genre>
+		<genre>Thriller</genre>
 		<description></description>
-		<fanart></fanart>
-		<externallink></externallink>
+		<fanart>https://media.revistagq.com/photos/60b4d1d5a091477bf296bff0/4:3/w_767,h_575,c_limit/el-silencio-de-la-ciudad-blanca.jpg</fanart>
+		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/EL%20SILENCIO%20DE%20LA%20CIUDAD%20BLANCA%20(2019.xml</externallink>
 	</menu>
 	
 	<menu>
