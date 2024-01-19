@@ -120,6 +120,16 @@
 	</menu>
 	
 	<menu>
+		<title>[COLOR red]•[/COLOR][B][COLOR white] EL BUENO, EL FEO Y EL MALO[/COLOR][/B]</title>
+		<link>nolink</link>
+		<thumbnail>nolink</thumbnail>
+		<genre>western</genre>
+		<description>Durante la guerra civil norteamericana (1861-1865), tres cazadores de recompensas buscan un tesoro que ninguno de ellos puede encontrar sin la ayuda de los otros dos. Así que colaboran entre sí para conseguir el botín.</description>
+		<fanart>https://listindiario.com/files/main_image/uploads/2018/02/03/642f49273e998.jpeg</fanart>
+		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/ELBUENOELFEOYELMALO.xml</externallink>
+	</menu>
+	
+	<menu>
 		<title>[COLOR red]•[/COLOR][B][COLOR white] AL ESTE DEL OESTE (1984)[/COLOR][/B]</title>
 		<link>nolink</link>
 		<thumbnail>nolink</thumbnail>
@@ -130,7 +140,7 @@
 	</menu>
 	
 	<menu>
-		<title>[COLOR red]•[/COLOR][B][COLOR white] AL ESTE DEL OESTE (1984)       [/COLOR][/B]</title>
+		<title>[COLOR red]•[/COLOR][B][COLOR white]       [/COLOR][/B]</title>
 		<link>nolink</link>
 		<thumbnail>nolink</thumbnail>
 		<genre>Artes marciales</genre>
