@@ -178,16 +178,6 @@
 		<fanart>https://static.abc.es/media/peliculas/000/020/941/el-penalti-mas-largo-del-mundo-2.jpg</fanart>
 		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/EL%20PENALTI%20MAS%20LARGO%20DEL%20MUNDO%20(2005).xml</externallink>
 	</menu>
-
-	<menu>
-		<title>[COLOR red]•[/COLOR][B][COLOR white] BRACULA CONDEMOR II (1997)[/COLOR][/B]</title>
-		<link>nolink</link>
-		<thumbnail>nolink</thumbnail>
-		<genre>Comedia</genre>
-		<description></description>
-		<fanart>https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/04/bracula-condemor-ii-3007894.jpg?tf=3840x</fanart>
-		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/BRACULA%20CONDEMOR%20II%20(1997)%20%20--%20SPAIN%20-%20DVD.mp4.xml</externallink>
-	</menu>
 	
 	<menu>
 		<title>[COLOR red]•[/COLOR][B][COLOR white] AQUÍ LLEGA CONDEMOR, EL PECADOR DE LA PRADERA (1996)[/COLOR][/B]</title>
@@ -197,6 +187,16 @@
 		<description></description>
 		<fanart>https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2017/11/11/Chiquito01.jpg</fanart>
 		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/AQU%C3%8D%20LLEGA%20CONDEMOR%2C%20EL%20PECADOR%20DE%20LA%20PRADERA%20(1996).xml</externallink>
+	</menu>
+	
+	<menu>
+		<title>[COLOR red]•[/COLOR][B][COLOR white] BRACULA CONDEMOR II (1997)[/COLOR][/B]</title>
+		<link>nolink</link>
+		<thumbnail>nolink</thumbnail>
+		<genre>Comedia</genre>
+		<description></description>
+		<fanart>https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/04/bracula-condemor-ii-3007894.jpg?tf=3840x</fanart>
+		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/BRACULA%20CONDEMOR%20II%20(1997)%20%20--%20SPAIN%20-%20DVD.mp4.xml</externallink>
 	</menu>
 	
 	<menu>
