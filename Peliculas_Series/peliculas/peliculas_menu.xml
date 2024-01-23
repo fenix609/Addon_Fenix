@@ -199,7 +199,7 @@
 		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/BRACULA%20CONDEMOR%20II%20(1997).xml</externallink>
 	</menu>
 	
-	<!-- <menu>
+	<menu>
 		<title>[COLOR red]•[/COLOR][B][COLOR white] MAKINAVAJA, EL ÚLTIMO CHORISO (1992)[/COLOR][/B]</title>
 		<link>nolink</link>
 		<thumbnail>nolink</thumbnail>
@@ -207,7 +207,7 @@
 		<description></description>
 		<fanart>https://images-na.ssl-images-amazon.com/images/S/pv-target-images/18517232cbe19fefcccd9ebfc1c68973371b46d4d9534e5b592c3037879571e3._RI_TTW_SX1080_FMjpg_.jpg</fanart>
 		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/31%20-%20MAKINAVAJA%2C%20EL%20%C3%9ALTIMO%20CHORISO%20(1992).xml</externallink>
-	</menu> -->
+	</menu>
 	<!-- 
 	<menu>
 		<title>[COLOR red]•[/COLOR][B][COLOR white] MAKINAVAJA 2 ( ¡SEMOS PELIGROSOS! )(1993)[/COLOR][/B]</title>
