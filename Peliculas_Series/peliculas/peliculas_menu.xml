@@ -246,9 +246,9 @@
 		<title>[COLOR red]•[/COLOR][B][COLOR white] NAPOLEON[/COLOR][/B]</title>
 		<link>nolink</link>
 		<thumbnail>nolink</thumbnail>
-		<genre>Artes marciales</genre>
+		<genre>Cine Belico</genre>
 		<description></description>
-		<fanart></fanart>
+		<fanart>https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/napoleon-2023-3193190.jpg</fanart>
 		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/napoleon.xml</externallink>
 	</menu>
 	
@@ -256,7 +256,7 @@
 		<title>[COLOR red]•[/COLOR][B][COLOR white] LA BRUJA[/COLOR][/B]</title>
 		<link>nolink</link>
 		<thumbnail>nolink</thumbnail>
-		<genre>Artes marciales</genre>
+		<genre>terror</genre>
 		<description></description>
 		<fanart>https://pics.filmaffinity.com/La_bruja-480212918-large.jpg</fanart>
 		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/labruja.xml</externallink>
@@ -266,7 +266,7 @@
 		<title>[COLOR red]•[/COLOR][B][COLOR white] SEPARATION[/COLOR][/B]</title>
 		<link>nolink</link>
 		<thumbnail>nolink</thumbnail>
-		<genre>Artes marciales</genre>
+		<genre>terror</genre>
 		<description></description>
 		<fanart>https://es.web.img3.acsta.net/pictures/21/03/26/09/45/3443290.jpg</fanart>
 		<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas/separation.xml</externallink>
