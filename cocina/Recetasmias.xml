@@ -6,7 +6,7 @@
          <title>[COLOR white]•[/COLOR][B][COLOR white] Mediafire[/COLOR][/B]</title>
          <thumbnail>https://pilpileando.com/wp-content/uploads/2021/11/CARRILLERAS-AL-VINO-TINTO-muy-tiernas.jpg</thumbnail>
          <fanart>https://pilpileando.com/wp-content/uploads/2021/11/CARRILLERAS-AL-VINO-TINTO-muy-tiernas.jpg</fanart>
-         <urlsolve>https://www.mediafire.com/file/tpbc4p9zuurj4s7/Carrilleras_al_vino_tino.mp4</urlsolve>
+         <link>https://www.mediafire.com/file/tpbc4p9zuurj4s7/Carrilleras_al_vino_tino.mp4</link>
     </menu>
 	
 	<menu>
@@ -14,7 +14,7 @@
          <thumbnail>https://pilpileando.com/wp-content/uploads/2021/11/CARRILLERAS-AL-VINO-TINTO-muy-tiernas.jpg</thumbnail>
          <fanart>https://pilpileando.com/wp-content/uploads/2021/11/CARRILLERAS-AL-VINO-TINTO-muy-tiernas.jpg</fanart> 
 		  <urlsolve>https://www.youtube.com/watch?v=kNBmrarC6Do</urlsolve>
-		  <jsonrpc>plugin://plugin.video.duffyou/</jsonrpc>
+		 <!--  <jsonrpc>plugin://plugin.video.duffyou/</jsonrpc> -->
     </menu>
    <menu>
          <title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] MMA Fighter 600lbs Sumo Vs 169lbs MMA UFC Fighter [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
