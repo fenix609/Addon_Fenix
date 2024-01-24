@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menus>
+<menu>
   
     <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white]  STREAMTAPE[/COLOR][/B]</title>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] STREAMTAPE[/COLOR][/B]</title>
          <thumbnail></thumbnail>
          <fanart></fanart>
-         <urlsolve></urlsolve>
+         <urlsolve>https://streamtape.com/v/2P09a8xJK9FAr4/SEPARATION_---_HD.mp4</urlsolve>
     </menu>
 
     <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] GAMOVIDEO[/COLOR][/B]</title>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] DOODSTREAM[/COLOR][/B]</title>
          <thumbnail></thumbnail>
          <fanart></fanart>
-         <urlsolve></urlsolve>
+         <urlsolve>https://doodstream.com/d/rx45dtkiqrpl</urlsolve>
     </menu>
 
-</menus>
+</menu>
+
+
 
