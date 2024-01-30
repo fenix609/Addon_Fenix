@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>[COLOR lime]**ZONA DELIA**[/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>Página [makelist2.param1]</title>
+<link>$doregex[makelist3]</link>
+<referer></referer>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres> (.*?),</expres>
+<page>$doregex[get-number]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+            <name>makelist3</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist3.param2]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist3.param1]</link>
+                        <thumbnail></thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>$doregex[get-source-page]</page>
+             <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>get-number</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):            
+
+ import requests
+ import re
+ url='https://www.youtube.com/watch?v=t8nu-crjc8E&index=25&list=PL7074F24FB985F7A0' 
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Accept-Language': 'en-US'}
+
+ rr = requests.get(url, headers=headers)
+ number = re.findall('</a></li><li>(.*?) vid', rr.text)[0]
+ #number = number.encode('unicode-escape')
+ number = number.replace(',', '')
+ real = int(float(number)) / 100
+ real2 = real + 3
+
+ liste = list(range(real2))
+ return liste
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-source-page</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+
+ import requests
+ import re
+ import json
+
+ pageUrl='https://www.youtube.com/watch?v=t8nu-crjc8E&index=25&list=PL7074F24FB985F7A0'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0'}
+ r1 = requests.get(pageUrl, headers = headers)
+ source = r1.text
+ page = [makelist2.param1]
+ N = int(float(page))
+ pre = 'https://www.youtube.com'
+ if (N > 1):
+
+   for itr in range (1,N):
+    continuex = re.findall('data-uix-load-more-href="(.*?)"', source)[0]
+    continuationx = pre + continuex
+    r = requests.get(continuationx, headers = headers)
+    source = r.text
+    jdata = json.loads(source)
+    source = jdata["load_more_widget_html"]
+    page = jdata["content_html"]
+   return page
+    
+ else:
+
+  return source
+]]></expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] DEDICADO A DELIA[/COLOR]  [COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=Q4a9uwV4nmo</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] Clase de ZUMBA REGGAETON - 30 MINUTOS de ZUMBA en español [/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=-nZUklTYHdY</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] [/COLOR] Zumba - Clase completa en español [/COLOR][[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=UA_WHnZdo5E</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] Best Compilation of Zumba Dance Full 1 hour Session [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=XkqdfbDq0bs</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] clase de zumba muy fácil [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=oXdQCh7GnJ0</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] ZUMBA MUSICA PARA BAILAR ENGANCHADO LO ULTIMO [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=7Es_CTZpN8Q</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] COREOGRAFIA ZUMBA BURN [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=wCiyfU4X_pM</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] zumba dance workout for belly fat zumba fitness workout full video [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=rR8bumq3wE8</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] Clase de aerobic para bajar de peso | Adelgazar bailando Zumba [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=NEijDVfivog</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] Andas En MI Cabeza - Chino & Nacho - Zumba Coreography[/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=ulBdtvL6ozQ</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] Audrey at the International Zumba Convention in Orlando!![/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=jkry2em5JeI</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] Zumba avanzado [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=cQikCKI1ad4</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] ZUMBA para quemar grasa - ZUMBA nivel AVANZADO[/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=UCVtlY6IukA</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]  Zumba Básico en Español [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=N7jsbngo_Ao</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] Rutina de Ejercicios sin pausa - 14 capitulo Startfit - ZUMBA [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=_LKoiGS8ucc</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] Full Zumba Class [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=U5WIpygokYU</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] INTERMEDIATE - Zumba Fitness - Zumba Dance Aerobic Workout [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=ChmVrQh99c8</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] Zumba-Mas Ritmo Fitness INTENSO con Gabriel Tristan / RitmoZum Fitness [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=pnW0JV-5hwo</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] Easy ZUMBA Class [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=eIxWJ33VDIo</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] ZUMBA 2016 - Coreografias M!x_ [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=fe6v-D3Bbak</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] Felices los 4 - Maluma - Marlon Alves MAs - Zumba[/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=oo_b1_YytjU</urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/Pcx0Asm.jpg</thumbnail>
+<fanart>https://i.imgur.com/Pcx0Asm.jpg</fanart>
+</item>

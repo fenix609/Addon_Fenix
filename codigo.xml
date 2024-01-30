@@ -1,0 +1,102 @@
+
+
+<item> regex valido para  kodi 17.4
+
+<title>[UPPERCASE][COLOR skyblue]  Estrenos[/UPPERCASE][/COLOR] </title>
+<link> </link>
+<info>Jan y Antonina Zabinski, el director </info> 
+<cookieJar></cookieJar>
+<thumbnail></thumbnail>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=title%3dcinestrenostv.tv%2b%2528Spanish%2bTV%2529%26url%3dcustoms%252Fcinestrenostv.tv.cfg%26definedIn%3dcustoms.cfg%26director%3dcinestrenostv.tv%26genre%3dLive%2bTV%26type%3drss%26icon%3d&amp;mode=1</jsonrpc>
+<fanart></fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/UFC/master/new21.xml</externallink> 
+<referer>http://www.vercanalestv.com/ver-motogp-en-directo-y-online-24h-gratis/</referer>
+<urlsolve>http://streamcloud.eu/hkbde8shc91l</urlsolve>
+
+  
+<regex>
+<name>GetPageUrl</name>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<expres>source: '(.*?)'</expres>
+<connection>keep-alive</connection> 
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<page>http://vergol.com/live/plusestrenos.php</page>
+<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+</regex>
+
+<listrepeat><![CDATA[
+                        <title>[makelist.param1]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+                   
+            ]]></listrepeat>
+			
+<channels_info>
+		<title>[COLOR red]*BIENVENIDOS [/COLOR][COLOR blue] AL [/COLOR][COLOR red] JOKER [/COLOR]</title>
+		<genre>THE JOKER </genre>
+		<description> Addon THE JOKER  Para el Disfrute de Todos</description>
+		<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/ca/83/db/ca83db60ab88ef1bce781373fc5b7091.jpg</thumbnail>
+		<fanart>https://s-media-cache-ak0.pinimg.com/originals/ca/83/db/ca83db60ab88ef1bce781373fc5b7091.jpg</fanart>
+		<date></date>
+		<credits>THE JOKER </credits>
+</channels_info>
+
+<channel>
+		<name>[COLOR red]=====> [/COLOR][COLOR blue]*DRAGON BALL SUPER [/COLOR][B][COLOR red] PULSA AQUI [/COLOR][/B][COLOR red]<=====[/COLOR]</name>
+		<thumbnail></thumbnail>
+		<fanart></fanart>
+		<link></link>http://ignoreme
+		<externallink>https://raw.githubusercontent.com/lokiyotnt69/JOKER/master/DRAGON%20BALL%20SUPER.xml</externallink>
+</channel>
+	
+</item> 
+
+<item>
+<title>222 </title>
+<f4m>http://iptv.electro-clair.net:8000/live/user2/user2/2587.ts</f4m>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item> 
+          <title>[ES] C IBERALIA TV</title> 
+          <link>plugin://plugin.video.f4mTester/?url=http://tv.iptvsensation.com:6500/live/BRUJATV/BRUJATV_FIRST_WARNING_FOR_STRONG_PASSWORD/15425.ts&amp;streamtype=TSDOWNLOADER&amp;name=[ES]  C  IBERALIA TV</link> 
+</item> 
+	
+ <item>
+<title>[COLOR orange] PARRITA 200[/COLOR][COLOR yellow] VIDEOS[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param1]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+                   
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=2VDErJYGyM4&amp;list=PL2Wzz_MrxoUj9rshujDatpvCjswEtmxDE</page>
+             <cookieJar></cookieJar>
+</regex>
+https://www.youtube.com/watch?v=2VDErJYGyM4&list=PL2Wzz_MrxoUj9rshujDatpvCjswEtmxDE
+ 
+                        <thumbnail>https://i.ytimg.com/vi/m2dJRzdCUj4/hqdefault.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/m2dJRzdCUj4/hqdefault.jpg</fanart>
+ 
+</item>
+
+<item><title>[COLOR=lime][B]  [/B][/COLOR]  [COLOR=goldenrod][B]Gol 21: [/B][/COLOR] [COLOR orangered][B]Exclusivamente para LaLiga 123 [/B][/COLOR][COLOR darkcyan] [I] ~  SportsDevil[/I][/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=$doregex[getM3u8]</link>
+<regex><name>getM3u8</name>
+    <expres><![CDATA[src="(.*?)"]]></expres>
+    <page>http://www.goleando.com/p/gol-21.html?m=1</page>
+	<referer>http://www.goleando.com/</referer>
+    <cookieJar></cookieJar>
+  </regex>
+<thumbnail>https://3.bp.blogspot.com/-5GRRkl1TWDE/V5E3cMJUJGI/AAAAAAAAByo/ICl7SQ_E1jo3Eq4jEItSszKm6U1ve_iTQCLcB/w72-h72-p-k-no-nu/02b8a898-2717-43b2-9fa6-7d26028a2291.jpg</thumbnail>
+</item>
+
+
+</item>

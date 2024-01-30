@@ -1,20 +1,20 @@
 #-------------------------------------------------------------------------------
-# Copyright (C) 2017 Carlos Guzman (cguZZman) carlosguzmang@protonmail.com
-# 
-# This file is part of Google Drive for Kodi
-# 
-# Google Drive for Kodi is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-# 
-# Cloud Drive Common Module for Kodi is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-# 
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# Copyright (C) 2017 Carlos Guzmán (cguZZman) carlosguzmang@protonmail.com
+#
+# Este archivo es parte de Google Drive para Kodi
+#
+# Google Drive para Kodi es software gratuito: puedes redistribuirlo y/o modificarlo
+# bajo los términos de la Licencia Pública General GNU publicada por
+# la Free Software Foundation, ya sea la versión 3 de la Licencia, o
+# (a su elección) cualquier versión posterior.
+#
+# El módulo común Cloud Drive para Kodi se distribuye con la esperanza de que sea útil.
+# pero SIN NINGUNA GARANTÍA; sin siquiera la garantía implícita de
+# COMERCIABILIDAD o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Ver el
+# Licencia pública general GNU para más detalles.
+#
+# Deberías haber recibido una copia de la Licencia Pública General GNU
+# junto con este programa. En caso contrario, consulte <http://www.gnu.org/licenses/>.
 #-------------------------------------------------------------------------------
 
 import urllib
