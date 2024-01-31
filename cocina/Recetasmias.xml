@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <menu>
+
+import duffyou
+duffyou.play(id, title="", plot="", thumb="")
   
     <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] Mediafire[/COLOR][/B]</title>
@@ -10,10 +13,10 @@
     </menu>
 	
 	<menu>
-         <title>Carrileras al vino tinto - Recetas de cocina </title>        
+         <title>Carrileras al vino tinto - Recetas de cocina youtube </title>        
          <thumbnail>https://pilpileando.com/wp-content/uploads/2021/11/CARRILLERAS-AL-VINO-TINTO-muy-tiernas.jpg</thumbnail>
          <fanart>https://pilpileando.com/wp-content/uploads/2021/11/CARRILLERAS-AL-VINO-TINTO-muy-tiernas.jpg</fanart> 
-		  <urlsolve>plugin://plugin.video.duffyou/watch?v=8HSH44CAIA0</urlsolve>
+		  <urlsolve>https://www.youtube.com/watch?v=zxxsvyjjt-A</urlsolve>
     </menu>
    <menu>
          <title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] MMA Fighter 600lbs Sumo Vs 169lbs MMA UFC Fighter [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
@@ -21,6 +24,8 @@
          <fanart>http://i.imgur.com/QkWC62o.jpg</fanart>
 		 <urlsolve>https://www.youtube.com/watch?v=8HSH44CAIA0</urlsolve>
    </menu>
+   
+    
 
  </menu>
  
