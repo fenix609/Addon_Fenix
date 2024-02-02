@@ -11,7 +11,7 @@
 <credits>nolink</credits>
 </menus_info>
 
-<menu>
+<!-- <menu>
 <title>[B][COLOR white]- SERIES[/COLOR][/B]</title>
 <link>nolink</link>
 <thumbnail>nolink</thumbnail>
@@ -19,13 +19,13 @@
 <externallink>nolink</externallink>
 </menu>
 
- 
+  -->
 <menu>
 <title>[B][COLOR white]- PELICULAS[/COLOR][/B]</title>
 <link>nolink</link>
 <thumbnail>nolink</thumbnail>
 <fanart>nolink</fanart>
-<externallink>nolink</externallink>
+<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/gmail_drive/servidores.xml</externallink>
 </menu>
 
 </menus>
