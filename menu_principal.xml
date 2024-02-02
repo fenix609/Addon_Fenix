@@ -107,6 +107,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </menu>
 
 <menu>
+	<title>[B][COLOR white]VIDEOS DRIVE MEGA[/COLOR][/B]</title>
+	<link>nolink</link>
+	<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
+	<fanart>https://i.postimg.cc/3RTJSjcy/plutotv.jpg</fanart>
+	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/Peliculas_Series/peliculas_serie_drive_mega.xml</externallink>
+</menu>
+
+<menu>
 	<title>[B][COLOR white][/COLOR][/B]</title>
 	<link>nolink</link>
 	<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
