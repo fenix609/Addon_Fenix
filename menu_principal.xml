@@ -76,9 +76,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <menu>
 	<title>[B][COLOR white]DOCUMENTALES[/COLOR][/B]</title>
 	<link>nolink</link>
-	<thumbnail>https://i.postimg.cc/L4x0N9qR/plutotv.png</thumbnail>
+	<thumbnail>nolink</thumbnail>
 	<fanart>https://i.imgur.com/acJoDKk.jpeg</fanart>
-	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/cocina/Recetasmias.xml</externallink>
+	<externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/documentales/documentales.xml</externallink>
 </menu>
 
  <menu>
