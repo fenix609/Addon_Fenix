@@ -3,19 +3,19 @@
 <menu>
 
    <menu>
-	     <title>[COLOR white]•[/COLOR][B][COLOR blue]  DIRECTO NATURA[/COLOR][/B]</title>
+	     <title>[COLOR white]•[/COLOR][B][COLOR blue]  Directo natura[/COLOR][/B]</title>
 	     <link>nolink</link>
 	     <thumbnail>https://i.imgur.com/BnR8jP6.jpg</thumbnail>
          <fanart>https://i.imgur.com/BnR8jP6.jpg</fanart>
-	     <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/documentales/directomatura/directomatura.xml</externallink>
+	     <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/documentales/directonatura/directonatura.xml</externallink>
    </menu> 
    
    <menu>
-	     <title>[COLOR white]•[/COLOR][B][COLOR blue]  DIRECTO NATURA 1[/COLOR][/B]</title>
+	     <title>[COLOR white]•[/COLOR][B][COLOR blue]  El hombre y la Tierra[/COLOR][/B]</title>
 	     <link>nolink</link>
 	     <thumbnail>https://i.imgur.com/BnR8jP6.jpg</thumbnail>
          <fanart>https://i.imgur.com/BnR8jP6.jpg</fanart>
-	     <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/documentales/animales/animales.xml</externallink>
+	     <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/documentales/ElhombreylaTierra/ElhombreylaTierra.xml</externallink>
    </menu> 
    
 </menu>
