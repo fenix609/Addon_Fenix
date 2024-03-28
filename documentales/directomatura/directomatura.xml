@@ -3,18 +3,17 @@
 <menu>
 
    <menu>
+         <title>[COLOR white]- Camara 2[/COLOR][B][COLOR red] LAGUNA de EL OSO[/COLOR][/B]</title>
+         <thumbnail>nolink</thumbnail>
+         <fanart>nolink</fanart>
+         <urlsolve>https://www.youtube.com/watch?v=Ps_A84TTVAk&list=PLZdHoKTd581yaSTJKgQgVOydHWTwXY8LT&index=5</urlsolve>
+   </menu>
+   <menu>
          <title>[COLOR white]- Camara 24[/COLOR][B][COLOR red] Nido Alcaraván[/COLOR][/B]</title>
-         <thumbnail>https://pilpileando.com/wp-content/uploads/2021/11/CARRILLERAS-AL-VINO-TINTO-muy-tiernas.jpg</thumbnail>
-         <fanart>https://pilpileando.com/wp-content/uploads/2021/11/CARRILLERAS-AL-VINO-TINTO-muy-tiernas.jpg</fanart>
+         <thumbnail>nolink</thumbnail>
+         <fanart>nolink</fanart>
          <urlsolve>https://www.youtube.com/watch?v=RYx4anunwTk</urlsolve>
    </menu>
-   
-   <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white][/COLOR][/B]</title>
-         <thumbnail>https://pilpileando.com/wp-content/uploads/2021/11/CARRILLERAS-AL-VINO-TINTO-muy-tiernas.jpg</thumbnail>
-         <fanart>https://pilpileando.com/wp-content/uploads/2021/11/CARRILLERAS-AL-VINO-TINTO-muy-tiernas.jpg</fanart>
-         <urlsolve>https://www.mediafire.com/file/tpbc4p9zuurj4s7/Carrilleras_al_vino_tino.mp4</urlsolve>
-   </menu> 
-   
+      
 </menu>
  
