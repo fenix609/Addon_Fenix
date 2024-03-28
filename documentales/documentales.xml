@@ -10,12 +10,12 @@
 	     <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/documentales/directomatura/directomatura.xml</externallink>
    </menu> 
    
-   <!-- <menu>
+   <menu>
 	     <title>[COLOR white]•[/COLOR][B][COLOR blue]  DIRECTO NATURA[/COLOR][/B]</title>
 	     <link>nolink</link>
 	     <thumbnail>nolink</thumbnail>
          <fanart>nolink</fanart>
 	     <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/documentales/directomatura/directomatura1.xml</externallink>
-   </menu>  -->
+   </menu> 
    
 </menu>
