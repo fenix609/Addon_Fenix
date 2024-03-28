@@ -2,13 +2,19 @@
 
 <menu>
 
-	<menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Carrileras al vino tinto[/COLOR][/B]</title>        
+   <menu>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] DIRECTO NATURA[/COLOR][/B]</title>        
          <thumbnail>https://i.imgur.com/BnR8jP6.jpg</thumbnail>
          <fanart>https://i.imgur.com/BnR8jP6.jpg</fanart> 
-		  <urlsolve>https://www.youtube.com/watch?v=zxxsvyjjt-A</urlsolve>
-    </menu>
-  
+		 <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/documentales/directomatura/directomatura.xml</externallink>
+   </menu>
+   <menu>
+	     <title>[B][COLOR white]vacio[/COLOR][/B]</title>
+	     <link>nolink</link>
+	     <thumbnail>nolink</thumbnail>
+         <fanart>nolink</fanart>
+	     <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/cocina/Recetasmias.xml</externallink>
+   </menu> 
    
  </menu>
  
