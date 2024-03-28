@@ -9,7 +9,7 @@
          <urlsolve>https://youtu.be/Ps_A84TTVAk?list=PLZdHoKTd581yaSTJKgQgVOydHWTwXY8LT</urlsolve>
    </menu>
    
-   <!-- <menu>
+   <menu>
          <title>[COLOR white]- Camara 3[/COLOR][B][COLOR red] :LAGUNA de EL OSO 2[/COLOR][/B]</title>
          <thumbnail>nolink</thumbnail>
          <fanart>nolink</fanart>
@@ -20,15 +20,15 @@
          <title>[COLOR white]- Camara [/COLOR][B][COLOR red] :[/COLOR][/B]</title>
          <thumbnail>nolink</thumbnail>
          <fanart>nolink</fanart>
-         <urlsolve>https://www.youtube.com/watch?v=Ps_A84TTVAk&list=PLZdHoKTd581yaSTJKgQgVOydHWTwXY8LT&index=5</urlsolve>
+         <urlsolve></urlsolve>
    </menu>
    
    <menu>
          <title>[COLOR white]- Camara [/COLOR][B][COLOR red] :[/COLOR][/B]</title>
          <thumbnail>nolink</thumbnail>
          <fanart>nolink</fanart>
-         <urlsolve>https://www.youtube.com/watch?v=Ps_A84TTVAk&list=PLZdHoKTd581yaSTJKgQgVOydHWTwXY8LT&index=5</urlsolve>
-   </menu> -->
+         <urlsolve></urlsolve>
+   </menu>
 
    <menu>
          <title>[COLOR white]- Camara 24[/COLOR][B][COLOR red] :Nido Alcaraván[/COLOR][/B]</title>
