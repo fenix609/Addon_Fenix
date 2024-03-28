@@ -2,15 +2,22 @@
 
 <menu>
 
+	<menu>
+         <title>[COLOR white]- Camara 1[/COLOR][B][COLOR red] :LAGUNA de EL OSO 1[/COLOR][/B]</title>
+         <thumbnail>nolink</thumbnail>
+         <fanart>nolink</fanart>
+         <urlsolve>https://youtu.be/eOB7JXLZtDs?list=PLZdHoKTd581yaSTJKgQgVOydHWTwXY8LT</urlsolve>
+   </menu>
+
    <menu>
-         <title>[COLOR white]- Camara 2[/COLOR][B][COLOR red] :LAGUNA de EL OSO[/COLOR][/B]</title>
+         <title>[COLOR white]- Camara 2[/COLOR][B][COLOR red] :LAGUNA de EL OSO 2[/COLOR][/B]</title>
          <thumbnail>nolink</thumbnail>
          <fanart>nolink</fanart>
          <urlsolve>https://youtu.be/Ps_A84TTVAk?list=PLZdHoKTd581yaSTJKgQgVOydHWTwXY8LT</urlsolve>
    </menu>
    
    <menu>
-         <title>[COLOR white]- Camara 3[/COLOR][B][COLOR red] :LAGUNA de EL OSO 2[/COLOR][/B]</title>
+         <title>[COLOR white]- Camara 3[/COLOR][B][COLOR red] :LAGUNA de EL OSO 3[/COLOR][/B]</title>
          <thumbnail>nolink</thumbnail>
          <fanart>nolink</fanart>
          <urlsolve>https://youtu.be/SJWfkfoGhm0?list=PLZdHoKTd581yaSTJKgQgVOydHWTwXY8LT</urlsolve>
