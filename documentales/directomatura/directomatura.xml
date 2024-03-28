@@ -80,11 +80,20 @@
    </menu>
    
    <menu>
-         <title>[COLOR white]- Camara 38[/COLOR][B][COLOR red] :Lechuzas en el nido (Avila)[/COLOR][/B]</title>
+         <title>[COLOR white]- Camara 37[/COLOR][B][COLOR red] :Mochuelos[/COLOR][/B]</title>
+         <thumbnail>nolink</thumbnail>
+         <fanart>nolink</fanart>
+         <urlsolve>https://www.youtube.com/watch?v=TFIwrpa31ME&list=PLZdHoKTd581yaSTJKgQgVOydHWTwXY8LT</urlsolve>
+   </menu>
+   
+   <menu>
+         <title>[COLOR white]- Camara 38[/COLOR][B][COLOR red] : Lechuzas en el nido (Avila)[/COLOR][/B]</title>
          <thumbnail>nolink</thumbnail>
          <fanart>nolink</fanart>
          <urlsolve>https://www.youtube.com/watch?v=UKp2w_FdvpU&list=PLZdHoKTd581yaSTJKgQgVOydHWTwXY8LT</urlsolve>
    </menu>
+   
+   
       
 </menu>
  
