@@ -2,7 +2,7 @@
 
 <menu>
 
-	<menu>
+   <menu>
          <title>[COLOR white]- Camara 1[/COLOR][B][COLOR red] :LAGUNA de EL OSO 1(Avila)[/COLOR][/B]</title>
          <thumbnail>nolink</thumbnail>
          <fanart>nolink</fanart>
@@ -22,41 +22,6 @@
          <fanart>nolink</fanart>
          <urlsolve>https://youtu.be/SJWfkfoGhm0?list=PLZdHoKTd581yaSTJKgQgVOydHWTwXY8LT</urlsolve>
    </menu>
-   
-   <!-- <menu>
-         <title>[COLOR white]- Camara [/COLOR][B][COLOR red] :[/COLOR][/B]</title>
-         <thumbnail>nolink</thumbnail>
-         <fanart>nolink</fanart>
-         <urlsolve></urlsolve>
-   </menu> -->
-   
-   <!-- <menu>
-         <title>[COLOR white]- Camara [/COLOR][B][COLOR red] :[/COLOR][/B]</title>
-         <thumbnail>nolink</thumbnail>
-         <fanart>nolink</fanart>
-         <urlsolve></urlsolve>
-   </menu> -->
-   
-   <!-- <menu>
-         <title>[COLOR white]- Camara [/COLOR][B][COLOR red] :[/COLOR][/B]</title>
-         <thumbnail>nolink</thumbnail>
-         <fanart>nolink</fanart>
-         <urlsolve></urlsolve>
-   </menu> -->
-   
-   <!-- <menu>
-         <title>[COLOR white]- Camara [/COLOR][B][COLOR red] :[/COLOR][/B]</title>
-         <thumbnail>nolink</thumbnail>
-         <fanart>nolink</fanart>
-         <urlsolve></urlsolve>
-   </menu> -->
-   
-   <!-- <menu>
-         <title>[COLOR white]- Camara [/COLOR][B][COLOR red] :[/COLOR][/B]</title>
-         <thumbnail>nolink</thumbnail>
-         <fanart>nolink</fanart>
-         <urlsolve></urlsolve>
-   </menu> -->
    
    <!-- <menu>
          <title>[COLOR white]- Camara [/COLOR][B][COLOR red] :[/COLOR][/B]</title>
@@ -93,7 +58,6 @@
          <urlsolve>https://www.youtube.com/watch?v=UKp2w_FdvpU&list=PLZdHoKTd581yaSTJKgQgVOydHWTwXY8LT</urlsolve>
    </menu>
    
-   
-      
+    
 </menu>
  
