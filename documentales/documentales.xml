@@ -10,4 +10,12 @@
 	     <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/documentales/directomatura/directomatura.xml</externallink>
    </menu> 
    
+   <menu>
+	     <title>[COLOR white]•[/COLOR][B][COLOR blue]  vacio[/COLOR][/B]</title>
+	     <link>nolink</link>
+	     <thumbnail>nolink</thumbnail>
+         <fanart>nolink</fanart>
+	     <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/documentales/directomatura/Recetasmias.xml</externallink>
+   </menu> 
+   
 </menu>
