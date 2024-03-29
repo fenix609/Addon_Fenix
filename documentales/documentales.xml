@@ -16,6 +16,14 @@
 	     <thumbnail>https://i.imgur.com/BnR8jP6.jpg</thumbnail>
          <fanart>https://i.imgur.com/BnR8jP6.jpg</fanart>
 	     <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/documentales/ElhombreylaTierra/ElhombreylaTierra.xml</externallink>
-   </menu> 
+   </menu>
+
+   <menu>
+	     <title>[COLOR white]•[/COLOR][B][COLOR blue]  canales[/COLOR][/B]</title>
+	     <link>nolink</link>
+	     <thumbnail>https://i.imgur.com/BnR8jP6.jpg</thumbnail>
+         <fanart>https://i.imgur.com/BnR8jP6.jpg</fanart>
+	     <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/documentales/canales.xml</externallink>
+   </menu>   
    
 </menu>
