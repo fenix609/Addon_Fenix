@@ -1,0 +1,305 @@
+# -*- coding: utf-8 -*-
+#------------------------------------------------------------
+#------------------------------------------------------------
+# License: GPL (http://www.gnu.org/licenses/gpl-3.0.html)
+# Based on code from youtube addon
+#
+# Thanks To: Google Search For This Template
+# modified by: BadMax
+# Gracias a la librería plugintools de Jesús (www.mimediacenter.info)
+#------------------------------------------------------------
+
+import os
+import sys, base64
+import plugintools
+import xbmc,xbmcaddon
+
+
+addonID = 'plugin.video.misterio'
+
+local = xbmcaddon.Addon(id=addonID)
+icon = local.getAddonInfo('icon')
+
+setting = xbmcaddon.Addon().getSetting
+if setting('youtube_usar') == "0":  ##Tiene escogido el plugin Youtube
+    usa_duffyou = False
+else:  ##Ha escogido usar Duff You
+    usa_duffyou = True
+
+youtube = "plugin://plugin.video.youtube/channel/MI-ID-CANAL/"
+duffyou = "eydhY3Rpb24nOiAnb2lvME8wME9PJywgJ2ZhbmFydCc6ICcnLCAnaWNvbic6ICcnLCAnaWQnOiAnTUktSUQtQ0FOQUwnLCAnbGFiZWwnOiAnJywgJ3BhZ2UnOiAxLCAncGxvdCc6ICcnLCAncXVlcnknOiAnJywgJ3RpcG8nOiAnY2hhbm5lbCd9"
+
+
+YOUTUBE_CHANNEL_ID1 = "UCNYW2vfGrUE6R5mIJYzkRyQ"
+YOUTUBE_CHANNEL_ID2 = "UCAolsolgHiURrQBuZ4qe0lg"
+YOUTUBE_CHANNEL_ID3 = "UCMFjnXyf9ziwfOr4Bu4y27Q"
+YOUTUBE_CHANNEL_ID4 = "UCSd5UbyLm6CBTDKo6RsHCSg"
+YOUTUBE_CHANNEL_ID5 = "UCPzif5fkYBkkJplCB0bASyA"
+YOUTUBE_CHANNEL_ID6 = "UCE6-3gQjny6fdNoltZI-qYw"
+YOUTUBE_CHANNEL_ID7 = "UCCm3xDalujG8RHrhdTAZlgg"
+YOUTUBE_CHANNEL_ID8 = "UCeI3VMfMWQQspYVuDzPrung"
+YOUTUBE_CHANNEL_ID9 = "UCS5gWLAaKdiLQb0m_FGxCDg"
+YOUTUBE_CHANNEL_ID10 = "UCJLxCZnSr19-2qr8arbppWA"
+YOUTUBE_CHANNEL_ID11 = "UCV_64Emay6e8d-pHYGQaWbA"
+YOUTUBE_CHANNEL_ID12 = "UCA0AXvVu2kZ4nauMgXs_Naw"
+YOUTUBE_CHANNEL_ID13 = "UCmIKpIgAbZ76Lts9c7QonXQ"
+YOUTUBE_CHANNEL_ID14 = "UCeFU92qBf_vDdS9_mGQCbhg"
+YOUTUBE_CHANNEL_ID15 = "UCkA-23QaQsiWAgbrM0DaI6w"
+YOUTUBE_CHANNEL_ID16 = "UCU4dLZPpj0hRF-P4x4snO9g"
+YOUTUBE_CHANNEL_ID17 = "UCGdQlv3wbQPK6Iv3YAYvTKA"
+YOUTUBE_CHANNEL_ID18 = "UCmgPxJ-S5uTVWOfvB69Ij6Q"
+YOUTUBE_CHANNEL_ID19 = "UCK7L1QR12CZC7bltM_XYuOw"
+YOUTUBE_CHANNEL_ID20 = "UCA1vMPfVrCB_NPnvuiMQ8PQ"
+YOUTUBE_CHANNEL_ID21 = "UC5RfSq8MS00LWofLPSKAnDA"
+YOUTUBE_CHANNEL_ID22 = "UCR-7MGoI73QyNTrMTldoJqA"
+YOUTUBE_CHANNEL_ID23 = "UCFNnF0EcsQM3Cm21gn81ENA"
+YOUTUBE_CHANNEL_ID24 = "UCdpQhjPQ2ShcnPPSeQKpLgA"
+
+
+# Entry point
+def run():
+    plugintools.log("misterio.run")
+    
+    # Get params
+    params = plugintools.get_params()
+    
+    if params.get("action") is None:
+        main_list(params)
+    else:
+        pass
+    
+    plugintools.close_item_list()
+
+# Main menu
+def main_list(params):
+    plugintools.log("misterio.main_list "+repr(params))
+
+	
+     
+   
+ 
+    plugintools.add_item( 
+        #action="", 
+        title="Peticiones en Telegram @grupomundokodi",
+        thumbnail="https://clubdeescritura.com/wp-content/uploads/users-141/user-140350/2021/04/TheWitch2witches_R2_Add_201026_012058.jpg",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True )
+
+    plugintools.add_item( 
+        #action="", 
+        title="DrossRotzank",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID1),
+        thumbnail="https://yt3.ggpht.com/aGU6C8g75lbP6BbhAeHVEmxQykIlOhJZeQoeeTPRj93ihwOcBMMS9t3uiXJb20h7tlqMinrO7A=s1000-c-k-c0x00ffffff-no-rj",
+		fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        credits="DrossRotzank es el canal dedicado a horror, misterios y conspiraciones más grande y visto del mundo. Con más de 5.600.000.000 no tiene parangón en Internet",
+        folder=True )     
+        
+    plugintools.add_item( 
+        #action="", 
+        title="DocTops",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID2),
+        thumbnail="https://yt3.ggpht.com/ytc/AMLnZu-HP7EQQqzX-ci8F_VbiuFclfOPctQldGXF-NBwPw=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True )
+        
+       
+    plugintools.add_item( 
+        #action="", 
+        title="Voces Anónimas",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID3),
+        thumbnail="https://yt3.ggpht.com/ytc/AMLnZu9vdQ0BHddfgeuMtU7G0HPCHPUCX96q-BnnCHwt=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True )    
+  
+    plugintools.add_item( 
+        #action="", 
+        title="Podcast Paranormal",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID4),
+        thumbnail="https://yt3.ggpht.com/-HZOyWV0_MsS7i4yFlaZIXQbOo15N0gqYe364sqk_YemMm7ZbSUvTxNUxPJi6Dntig5X-B_TOA=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True )  
+        
+           
+           
+    plugintools.add_item( 
+        #action="", 
+        title="Extranormal",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID5),
+        thumbnail="https://yt3.ggpht.com/ytc/AMLnZu-gam6dnSBTacw9ipggQTiWoGhqo1CMOnESZHbzXg=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True )    
+        
+                   
+    plugintools.add_item( 
+        #action="", 
+        title="Flisflisher",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID6),
+        thumbnail="https://yt3.ggpht.com/JOa3mQSAM_pD-5UzW2UYmb5piMg7LPeiLqdYP2Q0RgPQGDerwm3UrP458QX7BBy6yCjRHVA4Gw=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True ) 
+    
+    
+    plugintools.add_item( 
+        #action="", 
+        title="BreakMan",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID7),
+        thumbnail="https://yt3.ggpht.com/ytc/AMLnZu_Kkwr2rSWdgdUrB72w8CDzlloUJcCY2G-NH7oE1Q=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True ) 
+            
+            
+    plugintools.add_item( 
+        #action="", 
+        title="Paul Landó",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID8),
+        thumbnail="https://yt3.ggpht.com/mpQunIIm1ihNdyNURhXkakMCkUq7Yi9QWI7uZS7U39gZKbCluqM_HxkAVmtQ5RuCsFWSp6fEGQ=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True )         
+
+    plugintools.add_item( 
+        #action="", 
+        title="Canal Iker Jiménez",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID9),
+        thumbnail="https://yt3.ggpht.com/ytc/AMLnZu9zgBVuRQV28RGasmaQMFgg9CalnMEnsVP7vY9SYA=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True )             
+   
+   
+    plugintools.add_item( 
+        #action="", 
+        title="La habitación Oscura",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID10),
+        thumbnail="https://yt3.ggpht.com/ytc/AMLnZu_PZHL-2FCYevpCJvgVZLh2Jbm60xROcEK1jjeg=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True )  
+        
+
+    plugintools.add_item( 
+        #action="", 
+        title="Paulettee",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID11),
+        thumbnail="https://yt3.ggpht.com/ytc/AMLnZu_w12kM2iiz6rnrV5dGS5N7nhOGrNe0TElNMwY2FQ=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True )  
+
+ 
+    plugintools.add_item( 
+        #action="", 
+        title="El DoQmentalista",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID12),
+        thumbnail="https://yt3.ggpht.com/ytc/AMLnZu85KhYIty7QjPtjAMsv4rQEMTe2QsdCP37DNh2ZqA=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True ) 
+        
+    plugintools.add_item( 
+        #action="", 
+        title="Archivos Miedo",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID13),
+        thumbnail="https://yt3.ggpht.com/ytc/AMLnZu_uMrrp00kmeoZRxIdFkgVTvhXpxAF7cCM52H5wZQ=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True ) 
+
+    plugintools.add_item( 
+        #action="", 
+        title="MundoCreepy",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID14),
+        thumbnail="https://yt3.ggpht.com/Ek7F501pEfelgx_5GZ-d4G3ocW9AdIbwZvgXLSteUKxFD-yZT97FyHwF3U9vM7eQCGL0Xe9sFA=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True ) 
+
+    plugintools.add_item( 
+        #action="", 
+        title="elmundoDKBza",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID15),
+        thumbnail="https://yt3.ggpht.com/ytc/AMLnZu8FbI0OknDBpkQRYGSGp1RlRJH3-ZUD7nWnPsC1zg=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True ) 
+
+    plugintools.add_item( 
+        #action="", 
+        title="Los mejores Top 10",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID16),
+        thumbnail="https://yt3.ggpht.com/ytc/AMLnZu94BHV0qXN3cUCf_0hwMPuwuPuv27FlFnZj9Dej2w=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True ) 
+
+    plugintools.add_item( 
+        #action="", 
+        title="Relatos de la noche",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID17),
+        thumbnail="https://yt3.ggpht.com/ytc/AMLnZu_lMCOy2eTQFa2Ih6Mr1Pe6r1dmBn_Z6z5kGklLYA=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True ) 
+
+    plugintools.add_item( 
+        #action="", 
+        title="Pasillo Infinito",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID18),
+        thumbnail="https://yt3.ggpht.com/ytc/AMLnZu9RC3LqywKRlrd2zuWvgscGR1cDI0WPsF6j28Sj=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True ) 
+
+    plugintools.add_item( 
+        #action="", 
+        title="Danny Phantom",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID19),
+        thumbnail="https://yt3.ggpht.com/tNgGlEPxl30mwto9G6KRSZnsmOE5b9M3O1BK2IthG6osANEb07TPPuJ-X1l7uF5seIYNM0PA-lo=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True ) 
+
+    plugintools.add_item( 
+        #action="", 
+        title="Relatos del Lado Oscuro",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID20),
+        thumbnail="https://yt3.ggpht.com/ytc/AMLnZu9FoqSGndamN7b6WiMQxU-3R1rk5F3gzlXI2hNCug=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True ) 
+
+    plugintools.add_item( 
+        #action="", 
+        title="Alberto del Arco",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID21),
+        thumbnail="https://yt3.ggpht.com/5G9QpAzd_UunLvubQ8ftJv1gkT0vbGmTxw-Zm4kg0WVO0dxqDw3pTGd42tbOco1GYRGn33zx_g=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True ) 
+
+    plugintools.add_item( 
+        #action="", 
+        title="Oxlack Investigador",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID22),
+        thumbnail="https://yt3.ggpht.com/ytc/AMLnZu-0ywIPO1PjTB-ErWAiMcCmFXUEy1ZrfaBBVveCXQ=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True ) 
+
+    plugintools.add_item( 
+        #action="", 
+        title="Museo Del Horror",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID23),
+        thumbnail="https://yt3.ggpht.com/dfvdXAKOEruj2a_zq-rHylLObHMvFCVhBwPJQrTzul0Rv1epl9je8eYHKTdXY1FwVe_fBEbOjw=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True ) 
+
+    plugintools.add_item( 
+        #action="", 
+        title="Ricky Velázquez",
+        url=pon_Addon(YOUTUBE_CHANNEL_ID24),
+        thumbnail="https://yt3.ggpht.com/BhelFMa1bJBwinwTCraCXmPjDC-3D8zAJg8H50nH_Aehjl6YHvXrmjfjatlrh6bkTOMMpe68aw=s1000-c-k-c0x00ffffff-no-rj",
+        fanart="https://statics.viralizalo.com/virs/2016/01/VIR_55906_5062_la_aventura_en_el_bosque_oscuro_cual_seria_tu_destino.jpg?cb=58479",
+        folder=True ) 
+
+
+
+
+def pon_Addon(id_canal):
+
+    if usa_duffyou:  ##Usamos plugin Duff You
+        reemplaza = base64.b64decode(duffyou.encode('utf-8')).decode('utf-8').replace("MI-ID-CANAL" , id_canal)
+        llamada = "plugin://plugin.video.duffyou/?" + base64.b64encode(reemplaza.encode('utf-8')).decode('utf-8')
+    else:  ##Usamos pluin YouTube
+        llamada = youtube.replace("MI-ID-CANAL" , id_canal)
+    
+    return llamada
+        
+        
+        
+run()
