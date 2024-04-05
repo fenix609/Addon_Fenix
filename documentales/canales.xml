@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<menu>
-   <menu>
+   <!-- <menu>
          <title>[COLOR white]- Canal [/COLOR][B][COLOR red] :Los prisioneros del bosque [/COLOR][/B]</title>
          <thumbnail>nolink</thumbnail>
          <fanart>nolink</fanart>
          <urlsolve>https://www.youtube.com/watch?v=VLPLNBgLeqw6lxcM6pTrD9NXUTxwPElhzaRC</urlsolve>
-   </menu>
-   
-   
-</menu>
+   </menu> -->
+   import duffyou
+   duffyou.play(id, title="el hombre y la tierra", plot="", thumb="")
+  
  
