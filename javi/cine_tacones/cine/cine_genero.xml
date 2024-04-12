@@ -15,7 +15,7 @@
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.*(Accion).*genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
-<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+<page>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/cine_tacones/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -51,7 +51,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.*(Aventura).*genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
-<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+<page>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/cine_tacones/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -87,7 +87,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.*(Belico).*genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
-<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+<page>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/cine_tacones/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -123,7 +123,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.*(Ciencia).*genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
-<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+<page>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/cine_tacones/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -159,7 +159,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.*(Comedia).*genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
-<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+<page>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/cine_tacones/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -195,7 +195,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.*(Drama).*genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
-<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+<page>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/cine_tacones/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -231,7 +231,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.*(Fantastico).*genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
-<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+<page>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/cine_tacones/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -267,7 +267,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.*(Infantil).*genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
-<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+<page>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/cine_tacones/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -303,7 +303,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.*(Intriga).*genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
-<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+<page>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/cine_tacones/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -339,7 +339,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.*(Musical).*genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
-<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+<page>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/cine_tacones/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -375,7 +375,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.*(Romance).*genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
-<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+<page>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/cine_tacones/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -411,7 +411,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.*(Saga).*genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
-<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+<page>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/cine_tacones/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -447,7 +447,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.*(Terror).*genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
-<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+<page>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/cine_tacones/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
@@ -483,7 +483,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>[index.param7]</fanart>
 ]]></listrepeat>
 <expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.*(Thriller).*genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
-<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+<page>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/cine_tacones/cine/c.xml</page>
 </regex>
 <regex>
 <name>gestor</name>
