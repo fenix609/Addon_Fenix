@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+ <menu>
+ 
+   <menus_info>
+		<title>[COLOR white]•[/COLOR] [B][COLOR red]Addon Tacones Fenix[/COLOR][/B]</title>
+		<genre>ALL</genre>
+		<description>Addon sin animo de lucro y con fines exclusivamente educativos</description>
+		<thumbnail>icon.png</thumbnail>
+		<fanart>fanart.jpg</fanart>
+   </menus_info>  
+
+   <menu>
+		<title>[COLOR white]•[/COLOR] [B][COLOR red]PELICULAS M3U[/COLOR][/B]</title>
+		<thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
+		<fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
+		<link>http://ignoreme</link>
+		<externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/peliculas/pelis%20-%20m3u.xml</externallink>
+   </menu>
+
+   <menu>
+		<title>[COLOR white]•[/COLOR] [B][COLOR lime]RECETAS DE COCINA[/COLOR][/B]</title>
+		<thumbnail>https://i.imgur.com/2ZjJZVI.png</thumbnail>
+		<fanart>https://i.imgur.com/jbjfFKb.jpg</fanart>
+		<link>http://ignoreme</link>
+		<externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cocina/cometelo.xml</externallink>
+   </menu>
+
+
+   <menu>
+		<title>[COLOR white]•[/COLOR] [B][COLOR red]PELICULAS/SERIES DRIVE FENIX[/COLOR][/B]</title>
+		<thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
+		<fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
+		<link>http://ignoreme</link>
+		<externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/menu%20drive.xml</externallink>
+   </menu>
+
+   <menu>
+		<title>[COLOR white]•[/COLOR] [B][COLOR red]PELICULAS/SERIES DRIVE funciona directo[/COLOR][/B]</title>
+		<thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
+		<fanart>https://i.imgur.com/DLkC1jI.jpg</fanart>
+		<link>http://ignoreme</link>
+		<externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/drive/tronos1%20%20drive.xml</externallink>
+   </menu>
+   
+   <menu>
+		<title>[COLOR white]•[/COLOR] [B][COLOR red]CINE[/COLOR][/B]</title>
+		<thumbnail>https://i.imgur.com/gyUWTyK.png</thumbnail>
+		<fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
+		<link>http://ignoreme</link>
+		<externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/cinetacones.xml</externallink>
+   </menu>
+   
+   <menu>
+		<title>[COLOR white]•[/COLOR] [B][COLOR red]SERIES [/COLOR][/B]</title>
+		<thumbnail>https://i.imgur.com/ASLlVXw.png</thumbnail>
+		<fanart>https://i.imgur.com/8L5Aaw9.jpg</fanart>
+		<link>http://ignoreme</link>
+		<externallink>https://gitlab.com/konectas2/tacones/-/raw/main/menu_series</externallink>
+   </menu>
+   
+</menu>

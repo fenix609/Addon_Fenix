@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menus>
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]CALIDAD[/COLOR][COLOR white]               MICROHD 1080p[/COLOR][/B]</title>
+<link>$doregex[index]</link>
+<regex>
+<name>index</name>
+<listrepeat><![CDATA[
+<title>[B] [COLOR white][index.param1][/COLOR][COLOR red] ([index.param8] | [index.param9])[/COLOR][/B]</title>
+<link>$doregex[gestor]</link>
+<year>[index.param8]</year>
+<genre>[index.param9]</genre>
+<info>[index.param11]</info>
+<thumbnail>[index.param6]</thumbnail>
+<fanart>[index.param7]</fanart>
+]]></listrepeat>
+<expres>title.(.*)..title.\s*.microhd.([^NA]+)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.(.*)..genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
+<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+</regex>
+<regex>
+<name>gestor</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ calidad = '[index.param2]', '[index.param3]', '[index.param4]', '[index.param5]'
+ for x in calidad:
+    if x != 'NA':
+        calidad == x
+        break
+    else:
+        x = ''
+ return 'plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:[index.param2]'
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/sXnAM0W.png</thumbnail>
+<fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
+</menu>
+
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]CALIDAD[/COLOR][COLOR white]               BDRIP 1080[/COLOR][/B]</title>
+<link>$doregex[index]</link>
+<regex>
+<name>index</name>
+<listrepeat><![CDATA[
+<title>[COLOR red]•[/COLOR] [B] [COLOR white][index.param1][/COLOR][COLOR red] ([index.param8] | [index.param9])[/COLOR][/B]</title>
+<link>$doregex[gestor]</link>
+<year>[index.param8]</year>
+<genre>[index.param9]</genre>
+<info>[index.param11]</info>
+<thumbnail>[index.param6]</thumbnail>
+<fanart>[index.param7]</fanart>
+]]></listrepeat>
+<expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.([^NA]+)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.(.*)..genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
+<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+</regex>
+<regex>
+<name>gestor</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ calidad = '[index.param2]', '[index.param3]', '[index.param4]', '[index.param5]'
+ for x in calidad:
+    if x != 'NA':
+        calidad == x
+        break
+    else:
+        x = ''
+ return 'plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:[index.param3]'
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/RaQ0Fpg.png</thumbnail>
+<fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
+</menu>
+
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]CALIDAD[/COLOR][COLOR white]               3D[/COLOR][/B]</title>
+<link>$doregex[index]</link>
+<regex>
+<name>index</name>
+<listrepeat><![CDATA[
+<title>[COLOR red]•[/COLOR] [B] [COLOR white][index.param1][/COLOR][COLOR red] ([index.param8] | [index.param9])[/COLOR][/B]</title>
+<link>$doregex[gestor]</link>
+<year>[index.param8]</year>
+<genre>[index.param9]</genre>
+<info>[index.param11]</info>
+<thumbnail>[index.param6]</thumbnail>
+<fanart>[index.param7]</fanart>
+]]></listrepeat>
+<expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.([^NA]+)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.(.*)..genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
+<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+</regex>
+<regex>
+<name>gestor</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ calidad = '[index.param2]', '[index.param3]', '[index.param4]', '[index.param5]'
+ for x in calidad:
+    if x != 'NA':
+        calidad == x
+        break
+    else:
+        x = ''
+ return 'plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:[index.param4]'
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/YH8NGnx.png</thumbnail>
+<fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
+</menu>
+
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]CALIDAD[/COLOR][COLOR white]               4K[/COLOR][/B]</title>
+<link>$doregex[index]</link>
+<regex>
+<name>index</name>
+<listrepeat><![CDATA[
+<title>[COLOR red]•[/COLOR] [B] [COLOR white][index.param1][/COLOR][COLOR red] ([index.param8] | [index.param9])[/COLOR][/B]</title>
+<link>$doregex[gestor]</link>
+<year>[index.param8]</year>
+<genre>[index.param9]</genre>
+<info>[index.param11]</info>
+<thumbnail>[index.param6]</thumbnail>
+<fanart>[index.param7]</fanart>
+]]></listrepeat>
+<expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.([^NA]+)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.(.*)..genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
+<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/c.xml</page>
+</regex>
+<regex>
+<name>gestor</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ calidad = '[index.param2]', '[index.param3]', '[index.param4]', '[index.param5]'
+ for x in calidad:
+    if x != 'NA':
+        calidad == x
+        break
+    else:
+        x = ''
+ return 'plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:[index.param5]'
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/9PGBxUd.png</thumbnail>
+<fanart>https://i.imgur.com/R7oMOZO.jpg</fanart>
+</menu>
+</menus>

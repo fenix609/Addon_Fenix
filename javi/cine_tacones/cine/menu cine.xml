@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menus>
+<menu>
+<title>[COLOR red]•[/COLOR] [B][COLOR white]NECESARIO[/COLOR][COLOR red]     ELEMENTUM  [/COLOR][/B]</title>
+<link>http://ignoreme</link>
+<thumbnail>https://i.imgur.com/d1ad1Is.png</thumbnail>
+<fanart>https://i.imgur.com/mAe2igo.jpg</fanart>
+</menu>
+<menu>
+ Created by Someone Like You 
+<title>[COLOR white]•[/COLOR] [B][COLOR red]BUSCADOR[/COLOR][/B]</title>
+<link>$doregex[results]</link>
+<regex>
+<name>results</name>
+<listrepeat><![CDATA[
+<title>[COLOR red]•[/COLOR] [B][COLOR white][results.param1][/COLOR][/B]</title>
+<link>$doregex[selectionLinks]</link>
+<year>[results.param2]</year>
+<genre>[results.param3]</genre>
+<info>[results.param4]</info>
+<thumbnail>[results.param5]</thumbnail>
+<fanart>[results.param6]</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import xbmc, xbmcgui
+    import requests
+    import json
+    import difflib
+    from xml.etree import ElementTree
+    data = requests.get('https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/buscador.xml').text
+    xml = ElementTree.fromstring(data)
+    inputText = xbmcgui.Dialog().input('Buscar Pelicula: ', type=xbmcgui.INPUT_ALPHANUM).upper()
+    
+    def getLinks(item):
+        links = dict()
+        for k, v in item.items():
+            if len(v) == 40:
+                links.update({k: v})
+        return links
+
+    def parseJSON(data):
+        results = list()
+        for item in list(sorted(json.loads(data), key=lambda x: x['ratio'], reverse=True)):
+            film = item['item']
+            links = getLinks(film)
+            if not links: continue
+            results.append((film.get('title'), film.get('date'),
+                        film.get('genre'), film.get('info'), film.get('thumbnail'), film.get('fanart'),
+                        str(links)))
+        return results
+
+    def getResults(items):
+        results = list()
+        for item in items:
+            title = item.find('title').text.upper()
+            ratio = 100 if inputText in title.upper() else difflib.SequenceMatcher(
+                None, title, inputText).ratio() * 100
+            if ratio < 60: continue 
+            newitem = dict()
+            for elem in item.iter():
+                if elem.tag == 'item':
+                    continue
+                newitem.update({elem.tag: elem.text})
+            results.append({'ratio': ratio, 'item': newitem})
+        return results
+    return parseJSON(json.dumps(list(sorted(getResults(xml.findall('item')),
+                                key=lambda x: x['ratio'], reverse=True))))
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>selectionLinks</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import xbmcgui, xbmc
+    dialog = xbmcgui.Dialog()
+    links = [results.param7]
+    option = 0 
+    if len(links) > 1:
+        option = dialog.select('Seleccione Calidad:', [quality.replace('microhd','Micro HD').replace('fullhd','Full HD').replace('tresd','3D').replace('cuatrok','4K') for quality in links.keys()])
+        if option == -1:
+            return 
+    return 'plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:' + list(links.values())[option]
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/g412a9y.png</thumbnail>
+<fanart>https://i.imgur.com/BsHTrvN.jpg</fanart>
+</menu>
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]TODAS[/COLOR][COLOR white]              (A-Z)[/COLOR][/B]</title>
+<link>$doregex[index]</link>
+<regex>
+<name>index</name>
+<listrepeat><![CDATA[
+<title>[COLOR red]•[/COLOR] [B][COLOR white][index.param1][/COLOR][COLOR red] ([index.param8] | [index.param9])[/COLOR][/B]</title>
+<link>$doregex[gestor]</link>
+<year>[index.param8]</year>
+<genre>[index.param9]</genre>
+<info>[index.param11]</info>
+<thumbnail>[index.param6]</thumbnail>
+<fanart>[index.param7]</fanart>
+]]></listrepeat>
+<expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.(.*)..genre.\s*.extra.(.*)..extra.\s*.info.(.*)..info.</expres>
+<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/menu%20todas.xml</page>
+</regex>
+<regex>
+<name>gestor</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ calidad = '[index.param2]', '[index.param3]', '[index.param4]', '[index.param5]'
+ for x in calidad:
+    if x != 'NA':
+        calidad == x
+        break
+    else:
+        x = ''
+ return 'plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:' + x
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/f9tpAmE.png</thumbnail>
+<fanart>https://i.imgur.com/BsHTrvN.jpg</fanart>
+</menu>
+
+
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]CALIDAD[/COLOR][COLOR white]          MICROHD, BDRIP, 3D, 4K[/COLOR][/B]</title>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/menu%20Calidad.xml</externallink>
+<thumbnail>https://i.imgur.com/3I3skgB.png</thumbnail>
+<fanart>https://i.imgur.com/BsHTrvN.jpg</fanart>
+</menu>
+
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]AÑO[/COLOR][COLOR white]                   2017 - 2023[/COLOR][/B]</title>
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/cj2qhfgw</externallink>
+<thumbnail>https://i.imgur.com/eyTvbyC.png</thumbnail>
+<fanart>https://i.imgur.com/BsHTrvN.jpg</fanart>
+</menu>
+
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]GENERO[/COLOR][COLOR white]           ACCION, DRAMA, SAGAS, ...[/COLOR][/B]</title> 
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/cGnS0tq9</externallink>
+<thumbnail>https://i.imgur.com/E2xELih.png</thumbnail>
+<fanart>https://i.imgur.com/BsHTrvN.jpg</fanart>
+</menu>
+
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]CINE DE[/COLOR]    [COLOR white]        CULTO[/COLOR][/B]</title>
+<link>$doregex[index]</link>
+<regex>
+<name>index</name>
+<listrepeat><![CDATA[
+<title>[COLOR red]•[/COLOR] [B][COLOR white][index.param1][/COLOR][COLOR red]  ([index.param8]| [index.param9])[/COLOR][/B]</title>
+<link>$doregex[gestor]</link>
+<year>[index.param8]</year>
+<genre>[index.param9]</genre>
+<info>[index.param11]</info>
+<thumbnail>[index.param6]</thumbnail>
+<fanart>[index.param7]</fanart>
+]]></listrepeat>
+<expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.(.*)..genre.\s*.extra.*(Culto).*extra.\s*.info.(.*)..info.</expres>
+<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/menu%20cine%20culto.xml</page>
+</regex>
+<regex>
+<name>gestor</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ calidad = '[index.param2]', '[index.param3]', '[index.param4]', '[index.param5]'
+ for x in calidad:
+    if x != 'NA':
+        calidad == x
+        break
+    else:
+        x = ''
+ return 'plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:' + x
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/Hmc87sC.png</thumbnail>
+<fanart>https://i.imgur.com/BsHTrvN.jpg</fanart>
+</menu>
+
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]CINE DE[/COLOR]    [COLOR white]        ESTRENO[/COLOR][/B]</title>
+<link>$doregex[index]</link>
+<regex>
+<name>index</name>
+<listrepeat><![CDATA[
+<title>[COLOR red]•[/COLOR] [B][COLOR white][index.param1][/COLOR][COLOR red]  ([index.param8] | [index.param9])[/COLOR][/B]</title>
+<link>$doregex[gestor]</link>
+<year>[index.param8]</year>
+<genre>[index.param9]</genre>
+<info>[index.param11]</info>
+<thumbnail>[index.param6]</thumbnail>
+<fanart>[index.param7]</fanart>
+]]></listrepeat>
+<expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.(.*)..genre.\s*.extra.*(Estreno).*extra.\s*.info.(.*)..info.</expres>
+<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/estreno.xml</page>
+</regex>
+<regex>
+<name>gestor</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ calidad = '[index.param2]', '[index.param3]', '[index.param4]', '[index.param5]'
+ for x in calidad:
+    if x != 'NA':
+        calidad == x
+        break
+    else:
+        x = ''
+ return 'plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:' + x
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/vX0Ycn6.png</thumbnail>
+<fanart>https://i.imgur.com/BsHTrvN.jpg</fanart>
+</menu>
+
+<menu>
+<title>[COLOR white]•[/COLOR] [B][COLOR red]CINE DE[/COLOR]    [COLOR white]        MISCELANEA[/COLOR][/B]</title>
+<link>$doregex[index]</link>
+<regex>
+<name>index</name>
+<listrepeat><![CDATA[
+<title>[COLOR red]•[/COLOR] [B][COLOR white][index.param1][/COLOR][COLOR red]  ([index.param8] | [index.param9])[/COLOR][/B]</title>
+<link>$doregex[gestor]</link>
+<year>[index.param8]</year>
+<genre>[index.param9]</genre>
+<info>[index.param11]</info>
+<thumbnail>[index.param6]</thumbnail>
+<fanart>[index.param7]</fanart>
+]]></listrepeat>
+<expres>title.(.*)..title.\s*.microhd.(.*)..microhd.\s*.fullhd.(.*)..fullhd.\s*.tresd.(.*)..tresd.\s*.cuatrok.(.*)..cuatrok.\s*.thumbnail.(.*)..thumbnail.\s*.fanart.(.*)..fanart.\s*.date.(.*)..date.\s*.genre.(.*)..genre.\s*.extra.*(Mis).*extra.\s*.info.(.*)..info.</expres>
+<page>https://raw.githubusercontent.com/fenix609/clon-tacones/main/cine/miscelania.xml</page>
+</regex>
+<regex>
+<name>gestor</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ calidad = '[index.param2]', '[index.param3]', '[index.param4]', '[index.param5]'
+ for x in calidad:
+    if x != 'NA':
+        calidad == x
+        break
+    else:
+        x = ''
+ return 'plugin://plugin.video.elementum/play?uri=magnet:?xt=urn:btih:' + x
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/vIX7Cnq.png</thumbnail>
+<fanart>https://i.imgur.com/BsHTrvN.jpg</fanart>
+</menu>
+</menus>
+  
