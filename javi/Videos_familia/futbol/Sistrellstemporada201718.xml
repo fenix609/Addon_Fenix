@@ -16,23 +16,23 @@
          <fanart>https://i.imgur.com/MRAotd9.jpeg</fanart>
          <urlsolve>https://youtu.be/-g17RO1XTf4</urlsolve>
      </menu>
-<!--      <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Trinitat Vella 8-5 Sistrells 22-10-2017[/COLOR][/B]</title>
+     <menu>
+         <title>[COLOR white]•[/COLOR][B][COLOR white] florida-sistrell origin[/COLOR][/B]</title>
          <link>nolink</link>
          <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
          <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/futbol/servidores/TRINITATVELLA8-5SISTRELLS22102017.xml</externallink>
+         <urlsolve>https://youtu.be/PaHEsvmDfmc</urlsolve>
      </menu>
 	 
 	 <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Sistrells - Florida[/COLOR][/B]</title>
+         <title>[COLOR white]•[/COLOR][B][COLOR white]Sistrells 2-1 Badalona[/COLOR][/B]</title>
          <link>nolink</link>
          <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
          <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
-         <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/main/javi/Videos_familia/futbol/servidores/florida-sistrell.xml</externallink>
+         <urlsolve>https://youtu.be/snjmJSckVD0</urlsolve>
      </menu>
 	 
-	 <menu>
+	<!--  <menu>
          <title>[COLOR white]•[/COLOR][B][COLOR white] Grama - Sistrells[/COLOR][/B]</title>
          <link>nolink</link>
          <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
