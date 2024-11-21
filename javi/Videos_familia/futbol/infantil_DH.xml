@@ -3,32 +3,37 @@
 <menu>
   
      <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Barcelona 3-1 Martinenc [/COLOR][/B]</title>
+         <title>[COLOR red]•[/COLOR][B][COLOR white] Barcelona 3-1 Martinenc[/COLOR][/B]</title>
+         <link>nolink</link>
+         <thumbnail>https://i.imgur.com/O90jnH5.jpeg</thumbnail>
+         <fanart>https://i.imgur.com/MRAotd9.jpeg</fanart>
          <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/refs/heads/main/javi/Videos_familia/futbol/partidos_infantilDH/Barcelona_martinenc.xml</externallink>
-         <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
-         <fanart>https://i.imgur.com/UtNcMlb.jpeg</fanart>
      </menu>
+
      <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Hospitalet 1-0 Martinenc [/COLOR][/B]</title>
+         <title>[COLOR red]•[/COLOR][B][COLOR white] Hospitalet 1-0 Martinenc [/COLOR][/B]</title>
+         <link>nolink</link>
+         <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
+         <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
          <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/refs/heads/main/javi/Videos_familia/futbol/partidos_infantilDH/hostitalet_matinenc.xml</externallink>
-         <thumbnail>https://i.imgur.com/8I48Lai.png</thumbnail>
-         <fanart>https://i.imgur.com/vBl8k8j.jpeg</fanart>
-         
      </menu>
+	 
 	 <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Martinenc 3-2 Girona  [/COLOR][/B]</title>
+         <title>[COLOR red]•[/COLOR][B][COLOR white] Martinenc 3-2 Girona [/COLOR][/B]</title>
+         <link>nolink</link>
+         <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
+         <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
          <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/refs/heads/main/javi/Videos_familia/futbol/partidos_infantilDH/martinenc_girona.xml</externallink>
-         <thumbnail>https://i.imgur.com/8I48Lai.png</thumbnail>
-         <fanart>https://i.imgur.com/vBl8k8j.jpeg</fanart>
-         
      </menu>
+	 
 	 <menu>
-         <title>[COLOR white]•[/COLOR][B][COLOR white] Martinenc 3-1 Vilassar mar [/COLOR][/B]</title>
+         <title>[COLOR red]•[/COLOR][B][COLOR white]  Martinenc 3-1 Vilassar mar [/COLOR][/B]</title>
+         <link>nolink</link>
+         <thumbnail>https://i.postimg.cc/sfqr7y78/bMJG1bN.png</thumbnail>
+         <fanart>https://i.postimg.cc/dDPpXs9V/UyNxG3U.jpg</fanart>
          <externallink>https://raw.githubusercontent.com/fenix609/Addon_Fenix/refs/heads/main/javi/Videos_familia/futbol/partidos_infantilDH/martinernc_vilassar.xml</externallink>
-         <thumbnail>https://i.imgur.com/8I48Lai.png</thumbnail>
-         <fanart>https://i.imgur.com/vBl8k8j.jpeg</fanart>
-         
      </menu>
 	 
 </menu>
+
 
